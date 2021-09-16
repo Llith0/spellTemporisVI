@@ -36,7 +36,7 @@
                                 <table style="height: 100%; width: 100%">
                                     <tbody>
                                         <tr>
-                                            <td class="align-middle text-center">{{spell.level[0].effect[0].element}}</td>
+                                            <td class="align-middle text-center">{{ getAllelements(spell.level[0].effect) }}</td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -45,7 +45,7 @@
                                 <table style="height: 100%; width: 100%">
                                     <tbody>
                                         <tr>
-                                            <td class="align-middle text-center">87</td>
+                                            <td class="align-middle text-center">{{spell.level[0].level}}</td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -54,6 +54,9 @@
                     </div>
                     <div class="collapse" :id="`collapse_${index}`">
                         <div class="card card-body">
+                            <div class="text-center mt-3 mb-5">
+                                {{spell.description.replace('.', '.\n') }}
+                            </div>
                             <div class="row">
                                 <div class="col-md-6 col-sm-1">
                                     <div>
@@ -61,12 +64,11 @@
                                     </div>
                                     <table class="table table-striped">
                                         <tbody>
-                                          <tr>
-                                            <td>21 à 23 (dommages Eau)</td>
-                                          </tr>
-                                          <tr>
-                                            <td>42 à 48 (dommages Eau)</td>
-                                          </tr>
+                                            <template v-for="(item, index) in spell.level[0].effect" :key="item.key">
+                                                <tr>
+                                                    <td>{{ getSetence(item.damage.desc, item.damage.min, item.damage.max) }}</td>
+                                                </tr>
+                                            </template>
                                         </tbody>
                                     </table>
                                 </div>
@@ -76,12 +78,11 @@
                                     </div>
                                     <table class="table table-striped">
                                         <tbody>
-                                          <tr>
-                                            <td>21 à 25 (dommages Eau)</td>
-                                          </tr>
-                                          <tr>
-                                            <td>48 à 54 (dommages Eau)</td>
-                                          </tr>
+                                            <template v-for="(item, index) in spell.level[0].criticalEffect" :key="item.key">
+                                                <tr>
+                                                    <td>{{ getSetence(item.damage.desc, item.damage.min, item.damage.max) }}</td>
+                                                </tr>
+                                            </template>
                                         </tbody>
                                     </table>
                                 </div>
@@ -95,19 +96,22 @@
                                         <tbody>
                                           <tr class='mr-2'>
                                             <td>Probabilité de coup critique</td>
-                                            <td class="text-end">5%</td>
+                                            <td class="text-end" v-if="spell.level[0].CritcalProbability != 0">{{spell.level[0].CritcalProbability}} %</td>
+                                            <td class="text-end" v-if="spell.level[0].CritcalProbability == 0">N'as pas de coup critique</td>
                                           </tr>
                                           <tr>
                                             <td>Portée modifiable</td>
-                                            <td class="text-end">non</td>
+                                            <td class="text-end" v-if="spell.level[0].rangeCanBeBoosted == true">Oui</td>
+                                            <td class="text-end" v-if="spell.level[0].rangeCanBeBoosted == false">Non</td>
                                           </tr>
                                           <tr>
                                             <td>Lancer en ligne</td>
-                                            <td class="text-end">Oui</td>
+                                            <td class="text-end" v-if="spell.level[0].castInLine == true">Oui</td>
+                                            <td class="text-end" v-if="spell.level[0].castInLine == false">Non</td>
                                           </tr>
                                           <tr>
                                             <td>Zone d'effet</td>
-                                            <td class="text-end">Ligne de 3 cases</td>
+                                            <td class="text-end">{{ spell.level[0].effect[0].area }}</td>
                                           </tr>
                                         </tbody>
                                     </table>
@@ -119,15 +123,17 @@
                                         <tbody>
                                           <tr>
                                             <td>Nombre de lancer par tour</td>
-                                            <td class="text-end">1</td>
+                                            <td class="text-end">{{ spell.level[0].maxCastPerTurn }}</td>
                                           </tr>
                                           <tr>
                                             <td>Ligne de vue</td>
-                                            <td class="text-end">Oui</td>
+                                            <td class="text-end" v-if="spell.level[0].castTestLos == true">Oui</td>
+                                            <td class="text-end" v-if="spell.level[0].castTestLos == false">Non</td>
                                           </tr>
                                           <tr>
                                             <td>Cellule vide</td>
-                                            <td class="text-end">Non</td>
+                                            <td class="text-end" v-if="spell.level[0].needTakenCell == true">Non</td>
+                                            <td class="text-end" v-if="spell.level[0].needTakenCell == false">Oui</td>
                                           </tr>
                                         </tbody>
                                     </table>
@@ -147,6 +153,34 @@
                 spellsArr: [],
                 message: 'ok'
             },
+            methods: {
+                add: function(nb1, nb2){
+                    return Number(nb1) + Number(nb2);
+                }
+                ,
+                getAllelements: function(arr){
+                    let elemArr = []
+                    for(let x in arr) {
+                        if(arr[x].element != -1 && arr[x].element != 0 && elemArr.includes(arr[x].element) == false) {
+                            elemArr.push(arr[x].element);
+                        }
+                    }
+                    return elemArr.toString();
+                },
+                getSetence: function(sentance, min, max) {
+                    let finalSentance = ''
+                    if(min == 0){
+                        finalSentance = sentance.replace('#1', '').replace('#2', max).replace('{','').replace('}','').replace('~1','').replace('~2','').replace('à', '');
+                    }
+                    else if(max == 0) {
+                        finalSentance = sentance.replace('#1', min).replace('#2', '').replace('{','').replace('}','').replace('~1','').replace('~2','').replace('à', '');
+                    }
+                    else {
+                        finalSentance = sentance.replace('#1', min).replace('#2', max).replace('{','').replace('}','').replace('~1','').replace('~2','');
+                    }
+                    return finalSentance
+                }
+                },
             mounted(){
                 fetch("https://raw.githubusercontent.com/Llith0/spellTemporisVI/main/assets/json/spells.json")
                 .then(response => response.json())
@@ -158,7 +192,6 @@
                                 this.spellsArr.push(json[spells][spell]);
                             }
                         }
-                    console.log(this.spellsArr)
                     }
                 );
             },
