@@ -1,0 +1,154 @@
+<!Doctype HTML>
+<html>
+    <head>
+        <title>Sorts temporis VI</title>
+        <meta charset="UTF-8">
+        <script type = "text/javascript" src = "https://cdn.jsdelivr.net/npm/vue@2.6.14"></script>
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+        <script src="https://requirejs.org/docs/release/2.3.6/minified/require.js" ></script>
+    </head>
+    <body>
+        <div class="container mt-2">
+            <div class="text-center">
+                <h2>Sorts Temporis VI</h2>
+            </div>
+            <div class="mt-5">
+                <div class="card card-body" data-bs-toggle="collapse" data-bs-target="#collapse_10324" aria-expanded="false" aria-controls="collapse_10324">
+                    <div class="row">
+                        <div class="col-md-2 col-sm-4 text-center">
+                            <img src="assets/spells/sort_10324.png" width="50" height="50">
+                        </div>
+                        <div class="col-md-2 col-sm-1">
+                            <table style="height: 100%; width: 100%">
+                                <tbody>
+                                    <tr>
+                                        <td class="align-middle text-center">Zénith</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="col-md-3 col-sm-1">
+                        </div>
+                        <div class="col-md-2 col-sm-1">
+                            <table style="height: 100%; width: 100%">
+                                <tbody>
+                                    <tr>
+                                        <td class="align-middle text-center">Eau</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="col-md-2 col-sm-1">
+                            <table style="height: 100%; width: 100%">
+                                <tbody>
+                                    <tr>
+                                        <td class="align-middle text-center">87</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                      </div>
+                </div>
+                <div class="collapse" id="collapse_10324">
+                    <div class="card card-body">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-1">
+                                <div>
+                                    <h4 class="mb-3">Effets Normaux</h4>
+                                </div>
+                                <table class="table table-striped">
+                                    <tbody>
+                                      <tr>
+                                        <td>21 à 23 (dommages Eau)</td>
+                                      </tr>
+                                      <tr>
+                                        <td>42 à 48 (dommages Eau)</td>
+                                      </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="col-md-6 col-sm-1">
+                                <div>
+                                    <h4 class="mb-3">Effets Critique</h4>
+                                </div>
+                                <table class="table table-striped">
+                                    <tbody>
+                                      <tr>
+                                        <td>21 à 25 (dommages Eau)</td>
+                                      </tr>
+                                      <tr>
+                                        <td>48 à 54 (dommages Eau)</td>
+                                      </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="row mt-4">
+                            <div>
+                                <h4 class="mb-3">Autres caractéristiques</h4>
+                            </div>
+                            <div class="col-md-6 col-sm-1">
+                                <table class="table table-striped">
+                                    <tbody>
+                                      <tr class='mr-2'>
+                                        <td>Probabilité de coup critique</td>
+                                        <td class="text-end">5%</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Portée modifiable</td>
+                                        <td class="text-end">non</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Lancer en ligne</td>
+                                        <td class="text-end">Oui</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Zone d'effet</td>
+                                        <td class="text-end">Ligne de 3 cases</td>
+                                      </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="col-md-6 col-sm-1">
+                                <div>
+                                </div>
+                                <table class="table table-striped">
+                                    <tbody>
+                                      <tr>
+                                        <td>Nombre de lancer par tour</td>
+                                        <td class="text-end">1</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Ligne de vue</td>
+                                        <td class="text-end">Oui</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Cellule vide</td>
+                                        <td class="text-end">Non</td>
+                                      </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+    </body>
+    <script>
+
+        var app = new Vue({
+            el: '#app',
+            data: {
+                messages: []
+            },
+            mounted(){
+                fetch("./assets/json/spells.json")
+                .then(response => response.json())
+                .then(json => console.log(json));
+            },
+        })
+    </script>
+</html>
