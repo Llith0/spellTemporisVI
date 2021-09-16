@@ -29,10 +29,10 @@
                 <template v-for="(spell, index) in spellsArr">
                     <div class="card card-body" data-bs-toggle="collapse" :data-bs-target="`#collapse_${index}`" aria-expanded="false" :aria-controls="`collapse_${index}`">
                         <div class="row">
-                            <div class="col-md-2 col-sm-4 text-center">
+                            <div class="col-md-4 text-center">
                                 <img :src="`${spell.image}`" width="50" height="50">
                             </div>
-                            <div class="col-md-2 col-sm-1">
+                            <div class="col-md-2">
                                 <table style="height: 100%; width: 100%">
                                     <tbody>
                                         <tr>
@@ -41,9 +41,9 @@
                                     </tbody>
                                 </table>
                             </div>
-                            <div class="col-md-3 col-sm-1">
+                            <div class="col-md-2">
                             </div>
-                            <div class="col-md-2 col-sm-1">
+                            <div class="col-md-2">
                                 <table style="height: 100%; width: 100%">
                                     <tbody>
                                         <tr>
@@ -52,7 +52,7 @@
                                     </tbody>
                                 </table>
                             </div>
-                            <div class="col-md-2 col-sm-1">
+                            <div class="col-md-2">
                                 <table style="height: 100%; width: 100%">
                                     <tbody>
                                         <tr>
@@ -82,7 +82,7 @@
                                 {{spell.description }}
                             </div>
                             <div class="row">
-                                <div class="col-md-6 col-sm-1">
+                                <div class="col-md-6">
                                     <div>
                                         <h4 class="mb-3">Effets Normaux</h4>
                                     </div>
@@ -96,7 +96,7 @@
                                         </tbody>
                                     </table>
                                 </div>
-                                <div class="col-md-6 col-sm-1">
+                                <div class="col-md-6">
                                     <div>
                                         <h4 class="mb-3">Effets Critique</h4>
                                     </div>
@@ -115,7 +115,7 @@
                                 <div>
                                     <h4 class="mb-3">Autres caractéristiques</h4>
                                 </div>
-                                <div class="col-md-6 col-sm-1">
+                                <div class="col-md-6">
                                     <table class="table table-striped">
                                         <tbody>
                                           <tr class='mr-2'>
@@ -140,7 +140,7 @@
                                         </tbody>
                                     </table>
                                 </div>
-                                <div class="col-md-6 col-sm-1">
+                                <div class="col-md-6">
                                     <div>
                                     </div>
                                     <table class="table table-striped">
@@ -183,8 +183,10 @@
                                 </div>
                                 <table class="table table-striped align-center mx-auto" style="width: 80%">
                                     <tbody>
-                                        <tr>
-                                            <td>{{spell}}</td>
+                                        <tr v-for="(monster_drop, index) in spell.drop.monster">
+                                            <td v-if="monster_drop != 0">{{monster_drop}}</td>
+                                            <td class="text-end" v-if="monster_drop != 0">{{spell.drop.drop_percent}}</td>
+                                            <td v-if="monster_drop == 0">{{spell.drop.drop_percent}}</td>
                                         </tr>
                                     </tbody>
                                 </table>
