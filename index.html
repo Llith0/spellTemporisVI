@@ -13,6 +13,7 @@
         <div class="container mt-2" id="app">
             <div class="text-center">
                 <h2>Sorts Temporis VI</h2>
+                <button v-on:click="sort(spellsArr, '*')">Tous</button>
                 <button v-on:click="sort(spellsArr, 'eau')">Sorts eau</button>
                 <button v-on:click="sort(spellsArr, 'feu')">Sorts feu</button>
                 <button v-on:click="sort(spellsArr, 'terre')">Sorts terre</button>
@@ -212,7 +213,11 @@
                                     }
                                 }
                             }
-                            this.spellsArr = secondArr;
+                            if(elem == "*")
+                                this.spellsArr = elemArr;
+                            else {
+                                this.spellsArr = secondArr;
+                            }
                         }
                     );
 
