@@ -190,6 +190,7 @@
                         for( let spells in json ){
                             for( let spell in json[spells] ){
                                 this.spellsArr.push(json[spells][spell]);
+                                this.spellsArr.sort((a,b) => (a.level[0].level > b.level[0].level) ? 1 : ((b.level[0].level > a.level[0].level) ? -1 : 0))
                             }
                         }
                     }
