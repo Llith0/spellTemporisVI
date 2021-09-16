@@ -151,7 +151,9 @@
                     json => 
                     {
                         for( let spells in json ){
-                            console.log( json[spells] );
+                            for( let spell in json[spells] ){
+                                console.log( json[spell] );
+                            }
                         }
                     }
                 );
