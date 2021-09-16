@@ -150,8 +150,9 @@
                 .then(
                     json => 
                     {
-                        for(spells in json) {
-                            console.log(spells)
+                        const parsedJSON = JSON.parse(json);
+                        for( let spells in parsedJSON ){
+                            console.log( json[parsedJSON] );
                         }
                     }
                 );
