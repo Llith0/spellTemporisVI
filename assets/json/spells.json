@@ -5,7 +5,7 @@
         "name": "Trêve",
         "description": "Réduit tous les dommages subis par les alliés et les ennemis pendant 1 tour.\nLe lanceur ne peut pas occasionner de dommages pendant son tour suivant.",
         "spellTypeInformations": "Sort Défensif",
-        "image": "../spells/sort_5.png",
+        "image": "spells/sort_5.png",
         "level": {
           "0": {
             "ap": 3,
@@ -77,7 +77,7 @@
         "name": "Rempart",
         "description": "Réduit les dommages reçus.\nLa protection sur les alliés est plus faible.",
         "spellTypeInformations": "Sort Défensif",
-        "image": "../spells/sort_6.png",
+        "image": "spells/sort_6.png",
         "level": {
           "0": {
             "ap": 2,
@@ -158,7 +158,7 @@
         "name": "Retour du Bâton",
         "description": "Occasionne des dommages Terre et vole de la Force.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_8.png",
+        "image": "spells/sort_8.png",
         "level": {
           "0": {
             "ap": 3,
@@ -249,7 +249,7 @@
         "name": "Glyphe Enflammé",
         "description": "Pose un glyphe qui occasionne des dommages Feu.\nLes ennemis et alliés perdent des PM tant qu'ils sont présents dans la zone d'effet du glyphe.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_10.png",
+        "image": "spells/sort_10.png",
         "level": {
           "0": {
             "ap": 3,
@@ -321,7 +321,7 @@
         "name": "Piqûre Motivante",
         "description": "Augmente la Vitalité, les Dommages, les PM et les PA d'une invocation du lanceur pendant 3 tours.\n\nUne invocation ne peut être piquée qu'une seule fois.",
         "spellTypeInformations": "Sort d'Amélioration",
-        "image": "../spells/sort_27.png",
+        "image": "spells/sort_27.png",
         "level": {
           "0": {
             "ap": 3,
@@ -447,7 +447,7 @@
         "name": "Edith",
         "description": "Edith retire des PA et en donne à son invocateur. Il faut s'y reprendre à trois fois pour la tuer.\n\n<font color=\"#6D6D6D\">\n• Limité à 3 invocations par équipe.\n• Limité à 1 exemplaire de chaque invocation par équipe.\n• Compatible avec le sort Maîtrise des Invocations.\n• Le délai de relance commence à la mort de l'invocation.\n</font>",
         "spellTypeInformations": "Sorts d'invocation",
-        "image": "../spells/sort_34.png",
+        "image": "spells/sort_34.png",
         "level": {
           "0": {
             "ap": 3,
@@ -492,7 +492,7 @@
         "name": "Bouftou Mélanique",
         "description": "Le Bouftou Mélanique attire les ennemis et occasionne des dommages Terre.\n\n<font color=\"#6D6D6D\">\n• Limité à 3 invocations par équipe.\n• Limité à 1 exemplaire de chaque invocation par équipe.\n• Compatible avec le sort Maîtrise des Invocations.\n• Le délai de relance commence à la mort de l'invocation.\n</font>",
         "spellTypeInformations": "Sorts d'invocation",
-        "image": "../spells/sort_40.png",
+        "image": "spells/sort_40.png",
         "level": {
           "0": {
             "ap": 3,
@@ -537,7 +537,7 @@
         "name": "Roulage de Pelle",
         "description": "Occasionne des dommages Feu sans ligne de vue.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_44.png",
+        "image": "spells/sort_44.png",
         "level": {
           "0": {
             "ap": 3,
@@ -592,7 +592,7 @@
         "name": "Pelle Fantomatique",
         "description": "Réduit la durée des effets et occasionne des dommages Feu.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_49.png",
+        "image": "spells/sort_49.png",
         "level": {
           "0": {
             "ap": 3,
@@ -665,7 +665,7 @@
         "name": "Maladresse",
         "description": "Retire des PM.",
         "spellTypeInformations": "Sort Utilitaire",
-        "image": "../spells/sort_50.png",
+        "image": "spells/sort_50.png",
         "level": {
           "0": {
             "ap": 1,
@@ -717,7 +717,7 @@
         "name": "Maladresse",
         "description": "Retire des PM.",
         "spellTypeInformations": "Sort Utilitaire",
-        "image": "../spells/sort_50.png",
+        "image": "spells/sort_50.png",
         "level": {
           "0": {
             "ap": 1,
@@ -771,7 +771,7 @@
         "name": "Accélération",
         "description": "Augmente les PM de la cible.",
         "spellTypeInformations": "Sort d'Amélioration",
-        "image": "../spells/sort_55.png",
+        "image": "spells/sort_55.png",
         "level": {
           "0": {
             "ap": 2,
@@ -825,7 +825,7 @@
         "name": "Pelle Animée",
         "description": "Invoque une pelle qui repousse les ennemis et réduit leurs résistances aux pertes de PM.\nQuand elle est attaquée par un allié, ce dernier est soigné.\n\n<font color=\"#6D6D6D\">\n• Limité à 3 invocations par équipe.\n• Limité à 1 exemplaire de chaque invocation par équipe.\n• Compatible avec le sort Maîtrise des Invocations.\n• Le délai de relance commence à la mort de l'invocation.\n</font>",
         "spellTypeInformations": "Sorts d'invocation",
-        "image": "../spells/sort_57.png",
+        "image": "spells/sort_57.png",
         "level": {
           "0": {
             "ap": 3,
@@ -870,7 +870,7 @@
         "name": "Corruption",
         "description": "Sur Allié : soigne et fixe l'état Pacifiste pendant 1 tour\nSur Ennemi : fixe l'état Pacifiste et Invulnérable pendant 1 tour\nLes effets du sort ne peuvent pas être désenvoûtés.",
         "spellTypeInformations": "Sort Utilitaire",
-        "image": "../spells/sort_59.png",
+        "image": "spells/sort_59.png",
         "level": {
           "0": {
             "ap": 5,
@@ -933,7 +933,7 @@
         "name": "Coffre Animé",
         "description": "Invoque un Coffre Animé qui tacle les ennemis.\nIl occasionne des dommages en zone autour de lui et détecte les invisibles. Moins il a de vie et plus ses dommages sont importants.\nQuand il est attaqué par un allié, ce dernier est soigné.\n\n<font color=\"#6D6D6D\">\n• Limité à 3 invocations par équipe.\n• Limité à 1 exemplaire de chaque invocation par équipe.\n• Compatible avec le sort Maîtrise des Invocations.\n• Le délai de relance commence à la mort de l'invocation.\n</font>",
         "spellTypeInformations": "Sorts d'invocation",
-        "image": "../spells/sort_60.png",
+        "image": "spells/sort_60.png",
         "level": {
           "0": {
             "ap": 4,
@@ -978,7 +978,7 @@
         "name": "Poison Insidieux",
         "description": "Empoisonne la cible pendant 2 tours en occasionnant des dommages Air.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_66.png",
+        "image": "spells/sort_66.png",
         "level": {
           "0": {
             "ap": 3,
@@ -1033,7 +1033,7 @@
         "name": "Effroi",
         "description": "Pousse la cible. Plus la vie du lanceur est basse plus la cible est poussée loin.",
         "spellTypeInformations": "Sort de Placement",
-        "image": "../spells/sort_67.png",
+        "image": "spells/sort_67.png",
         "level": {
           "0": {
             "ap": 3,
@@ -1114,7 +1114,7 @@
         "name": "Piège Fangeux",
         "description": "Pose un piège qui occasionne des dommages Eau. Les alliés à proximité du piège sont soignés à hauteur de 50% des dommages occasionnés à la cible qui le déclenche.",
         "spellTypeInformations": "Sort de Soin",
-        "image": "../spells/sort_75.png",
+        "image": "spells/sort_75.png",
         "level": {
           "0": {
             "ap": 3,
@@ -1159,7 +1159,7 @@
         "name": "Piège Insidieux",
         "description": "Pose un piège. Une fois déclenché, les ennemis qui terminent leur tour dans sa zone d'effet subissent des dommages Air.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_77.png",
+        "image": "spells/sort_77.png",
         "level": {
           "0": {
             "ap": 3,
@@ -1204,7 +1204,7 @@
         "name": "Gelure",
         "description": "Occasionne des dommages Air aux ennemis.\nTéléporte la cible à sa position précédente.",
         "spellTypeInformations": "Sort de Placement",
-        "image": "../spells/sort_84.png",
+        "image": "spells/sort_84.png",
         "level": {
           "0": {
             "ap": 2,
@@ -1277,7 +1277,7 @@
         "name": "Téléportation",
         "description": "Téléporte le lanceur symétriquement par rapport à la cible.",
         "spellTypeInformations": "Sort de Placement",
-        "image": "../spells/sort_88.png",
+        "image": "spells/sort_88.png",
         "level": {
           "0": {
             "ap": 2,
@@ -1322,7 +1322,7 @@
         "name": "Vol du Temps",
         "description": "Occasionne des dommages Eau à la cible.\nLe lanceur gagne 2 PA au début de son prochain tour.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_98.png",
+        "image": "spells/sort_98.png",
         "level": {
           "0": {
             "ap": 4,
@@ -1414,7 +1414,7 @@
         "name": "Bond du Félin",
         "description": "Augmente les PM de la cible de 1 pendant 1 tour.",
         "spellTypeInformations": "Sort d'Amélioration",
-        "image": "../spells/sort_105.png",
+        "image": "spells/sort_105.png",
         "level": {
           "0": {
             "ap": 1,
@@ -1468,7 +1468,7 @@
         "name": "Perception",
         "description": "La cible est soignée de 5% de sa vie par ennemi à proximité.\nDétecte les entités invisibles dans la zone d'effet.",
         "spellTypeInformations": "Sort de Soin",
-        "image": "../spells/sort_113.png",
+        "image": "spells/sort_113.png",
         "level": {
           "0": {
             "ap": 2,
@@ -1549,7 +1549,7 @@
         "name": "Mot de Frayeur",
         "description": "Pousse la cible.",
         "spellTypeInformations": "Sort de Placement",
-        "image": "../spells/sort_128.png",
+        "image": "spells/sort_128.png",
         "level": {
           "0": {
             "ap": 1,
@@ -1594,7 +1594,7 @@
         "name": "Mot Sélectif",
         "description": "Occasionne des dommages Feu aux ennemis et soigne les alliés en zone.",
         "spellTypeInformations": "Sort de Soin",
-        "image": "../spells/sort_130.png",
+        "image": "spells/sort_130.png",
         "level": {
           "0": {
             "ap": 3,
@@ -1685,7 +1685,7 @@
         "name": "Mot de Régénération",
         "description": "La cible alliée est soignée à retardement : au début du prochain tour du lanceur, et au tour suivant.",
         "spellTypeInformations": "Sort de Soin",
-        "image": "../spells/sort_131.png",
+        "image": "spells/sort_131.png",
         "level": {
           "0": {
             "ap": 2,
@@ -1739,7 +1739,7 @@
         "name": "Mot Zarela",
         "description": "Soigne la cible.",
         "spellTypeInformations": "Sort de Soin",
-        "image": "../spells/sort_139.png",
+        "image": "spells/sort_139.png",
         "level": {
           "0": {
             "ap": 2,
@@ -1794,7 +1794,7 @@
         "name": "Mot de Reconstitution",
         "description": "Soigne totalement la cible alliée mais la rend ensuite Insoignable pour 3 tours.",
         "spellTypeInformations": "Sort de Soin",
-        "image": "../spells/sort_140.png",
+        "image": "spells/sort_140.png",
         "level": {
           "0": {
             "ap": 4,
@@ -1848,7 +1848,7 @@
         "name": "Bond",
         "description": "Téléporte sur la case ciblée.\nAugmente les dommages reçus par les ennemis situés sur les cases adjacentes.",
         "spellTypeInformations": "Sort de Placement",
-        "image": "../spells/sort_142.png",
+        "image": "spells/sort_142.png",
         "level": {
           "0": {
             "ap": 5,
@@ -1939,7 +1939,7 @@
         "name": "Massacre",
         "description": "Lorsque la cible ennemie reçoit des dommages de sorts, elle occasionne 50% de ces dommages aux ennemis au contact.",
         "spellTypeInformations": "Sort Utilitaire",
-        "image": "../spells/sort_147.png",
+        "image": "spells/sort_147.png",
         "level": {
           "0": {
             "ap": 2,
@@ -1984,7 +1984,7 @@
         "name": "Précipitation",
         "description": "Augmente les PA de la cible pour le tour en cours mais lui retire des PA le tour suivant.",
         "spellTypeInformations": "Sort d'Amélioration",
-        "image": "../spells/sort_149.png",
+        "image": "spells/sort_149.png",
         "level": {
           "0": {
             "ap": 2,
@@ -2056,7 +2056,7 @@
         "name": "Magma",
         "description": "Occasionne des dommages Feu en zone.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_154.png",
+        "image": "spells/sort_154.png",
         "level": {
           "0": {
             "ap": 3,
@@ -2111,7 +2111,7 @@
         "name": "Concentration",
         "description": "Occasionne des dommages Terre.\nLes dommages sont augmentés contre les Invocations.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_158.png",
+        "image": "spells/sort_158.png",
         "level": {
           "0": {
             "ap": 2,
@@ -2184,7 +2184,7 @@
         "name": "Colère de Iop",
         "description": "Occasionne des dommages Terre.\nAugmente les dommages du sort au troisième tour après son lancer.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_159.png",
+        "image": "spells/sort_159.png",
         "level": {
           "0": {
             "ap": 7,
@@ -2257,7 +2257,7 @@
         "name": "Flèche Magique",
         "description": "Occasionne des dommages Air et vole la portée aux ennemis. Augmente la portée des alliés ciblés.",
         "spellTypeInformations": "Sort Utilitaire",
-        "image": "../spells/sort_161.png",
+        "image": "spells/sort_161.png",
         "level": {
           "0": {
             "ap": 3,
@@ -2382,7 +2382,7 @@
         "name": "Flèche Magique",
         "description": "Occasionne des dommages Air et vole la portée aux ennemis. Augmente la portée des alliés ciblés.",
         "spellTypeInformations": "Sort Déclenché",
-        "image": "../spells/sort_161.png",
+        "image": "spells/sort_161.png",
         "level": {
           "0": {
             "ap": 1,
@@ -2427,7 +2427,7 @@
         "name": "Flèche Enflammée",
         "description": "Occasionne des dommages Feu aux ennemis et repousse les cibles.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_165.png",
+        "image": "spells/sort_165.png",
         "level": {
           "0": {
             "ap": 4,
@@ -2500,7 +2500,7 @@
         "name": "Tir Puissant",
         "description": "Augmente les dommages des sorts.",
         "spellTypeInformations": "Sort d'Amélioration",
-        "image": "../spells/sort_166.png",
+        "image": "spells/sort_166.png",
         "level": {
           "0": {
             "ap": 3,
@@ -2573,7 +2573,7 @@
         "name": "Flèche Punitive",
         "description": "Occasionne des dommages Terre et augmente les dommages du sort tous les 2 tours.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_171.png",
+        "image": "spells/sort_171.png",
         "level": {
           "0": {
             "ap": 4,
@@ -2664,7 +2664,7 @@
         "name": "Tir Éloigné",
         "description": "Augmente la portée des cibles présentes dans la zone d'effet.",
         "spellTypeInformations": "Sort d'Amélioration",
-        "image": "../spells/sort_172.png",
+        "image": "spells/sort_172.png",
         "level": {
           "0": {
             "ap": 3,
@@ -2737,7 +2737,7 @@
         "name": "Flèche Cinglante",
         "description": "Applique de l'Érosion aux ennemis et repousse de 2 cases.",
         "spellTypeInformations": "Sort de Placement",
-        "image": "../spells/sort_174.png",
+        "image": "spells/sort_174.png",
         "level": {
           "0": {
             "ap": 2,
@@ -2800,7 +2800,7 @@
         "name": "Flèche Explosive",
         "description": "Occasionne des dommages Feu en zone.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_179.png",
+        "image": "spells/sort_179.png",
         "level": {
           "0": {
             "ap": 4,
@@ -2873,7 +2873,7 @@
         "name": "Herbe Folle",
         "description": "Occasionne des dommages Feu et retire des PM en zone.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_185.png",
+        "image": "spells/sort_185.png",
         "level": {
           "0": {
             "ap": 3,
@@ -2964,7 +2964,7 @@
         "name": "La Sacrifiée",
         "description": "La Sacrifiée se sacrifie pour occasionner des dommages Air en zone. Les dommages qu'elle occasionne augmente à chaque tour.\n\n<font color=\"#6D6D6D\">\n• Limité à 3 invocations par équipe.\n• Limité à 1 exemplaire de chaque invocation par équipe.\n• Compatible avec le sort Maîtrise des Invocations.\n• Le délai de relance commence à la mort de l'invocation.\n</font>",
         "spellTypeInformations": "Sorts d'invocation",
-        "image": "../spells/sort_189.png",
+        "image": "spells/sort_189.png",
         "level": {
           "0": {
             "ap": 3,
@@ -3009,7 +3009,7 @@
         "name": "La Bloqueuse",
         "description": "La Bloqueuse cherche à aller au contact des adversaires pour les gêner.\n\n<font color=\"#6D6D6D\">\n• Limité à 3 invocations par équipe.\n• Limité à 1 exemplaire de chaque invocation par équipe.\n• Compatible avec le sort Maîtrise des Invocations.\n• Le délai de relance commence à la mort de l'invocation.\n</font>",
         "spellTypeInformations": "Sorts d'invocation",
-        "image": "../spells/sort_193.png",
+        "image": "spells/sort_193.png",
         "level": {
           "0": {
             "ap": 3,
@@ -3054,7 +3054,7 @@
         "name": "Libération",
         "description": "Pousse les alliés et ennemis autour du lanceur.",
         "spellTypeInformations": "Communs",
-        "image": "../spells/sort_368.png",
+        "image": "spells/sort_368.png",
         "level": {
           "0": {
             "ap": 3,
@@ -3097,7 +3097,7 @@
         "name": "Libération",
         "description": "Pousse les alliés et ennemis autour du lanceur.",
         "spellTypeInformations": "Sort de Placement",
-        "image": "../spells/sort_368.png",
+        "image": "spells/sort_368.png",
         "level": {
           "0": {
             "ap": 3,
@@ -3142,7 +3142,7 @@
         "name": "Félintion",
         "description": "Vole des points de vie aux ennemis dans l'élément Eau.\nPousse les ennemis et alliés",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_412.png",
+        "image": "spells/sort_412.png",
         "level": {
           "0": {
             "ap": 4,
@@ -3215,7 +3215,7 @@
         "name": "Raulebaque",
         "description": "Replace tous les personnages à leurs positions précédentes.",
         "spellTypeInformations": "Sort de Placement",
-        "image": "../spells/sort_424.png",
+        "image": "spells/sort_424.png",
         "level": {
           "0": {
             "ap": 2,
@@ -3260,7 +3260,7 @@
         "name": "Retraite Anticipée",
         "description": "Interdit l'utilisation des sorts de déplacement et empêche d'utiliser des PM.\nLe lanceur du sort est affecté au tour suivant.\nLes effets ne peuvent pas être désenvoûtés.",
         "spellTypeInformations": "Sort Utilitaire",
-        "image": "../spells/sort_425.png",
+        "image": "spells/sort_425.png",
         "level": {
           "0": {
             "ap": 4,
@@ -3332,7 +3332,7 @@
         "name": "Attirance",
         "description": "Attire la cible.",
         "spellTypeInformations": "Sort de Placement",
-        "image": "../spells/sort_434.png",
+        "image": "spells/sort_434.png",
         "level": {
           "0": {
             "ap": 3,
@@ -3377,7 +3377,7 @@
         "name": "Transposition",
         "description": "Échange de position avec la cible.",
         "spellTypeInformations": "Sort de Placement",
-        "image": "../spells/sort_438.png",
+        "image": "spells/sort_438.png",
         "level": {
           "0": {
             "ap": 3,
@@ -3422,7 +3422,7 @@
         "name": "Sacrifice",
         "description": "Cible des alliés en zone pour recevoir les dommages à leur place.",
         "spellTypeInformations": "Sort Défensif",
-        "image": "../spells/sort_440.png",
+        "image": "spells/sort_440.png",
         "level": {
           "0": {
             "ap": 2,
@@ -3476,7 +3476,7 @@
         "name": "Punition",
         "description": "Occasionne des dommages dans le meilleur élément d'attaque du lanceur, plus des dommages Neutre selon ses PV érodés.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_446.png",
+        "image": "spells/sort_446.png",
         "level": {
           "0": {
             "ap": 4,
@@ -3549,7 +3549,7 @@
         "name": "Poing Enflammé",
         "description": "Occasionne des dommages Feu.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_687.png",
+        "image": "spells/sort_687.png",
         "level": {
           "0": {
             "ap": 3,
@@ -3604,7 +3604,7 @@
         "name": "Épouvante",
         "description": "Repousse la cible et réduit la probabilité d'occasionner des critiques aux ennemis.",
         "spellTypeInformations": "Sort Utilitaire",
-        "image": "../spells/sort_689.png",
+        "image": "spells/sort_689.png",
         "level": {
           "0": {
             "ap": 2,
@@ -3695,7 +3695,7 @@
         "name": "Stabilisation",
         "description": "Empêche la cible d'être déplacée.\nAugmente l'Esquive PM.",
         "spellTypeInformations": "Sort d'Amélioration",
-        "image": "../spells/sort_695.png",
+        "image": "spells/sort_695.png",
         "level": {
           "0": {
             "ap": 1,
@@ -3758,7 +3758,7 @@
         "name": "Ethylo",
         "description": "Occasionne des dommages Eau.\nApplique un malus au retrait de PA.",
         "spellTypeInformations": "Sort Utilitaire",
-        "image": "../spells/sort_697.png",
+        "image": "spells/sort_697.png",
         "level": {
           "0": {
             "ap": 3,
@@ -3849,7 +3849,7 @@
         "name": "Souillure",
         "description": "Réduit la durée des effets sur la cible de 1 tour.\nApplique un malus de Puissance.",
         "spellTypeInformations": "Sort Utilitaire",
-        "image": "../spells/sort_698.png",
+        "image": "spells/sort_698.png",
         "level": {
           "0": {
             "ap": 2,
@@ -3940,7 +3940,7 @@
         "name": "Pandanlku",
         "description": "Augmente les PM de la cible.",
         "spellTypeInformations": "Sort d'Amélioration",
-        "image": "../spells/sort_704.png",
+        "image": "spells/sort_704.png",
         "level": {
           "0": {
             "ap": 2,
@@ -3992,7 +3992,7 @@
         "name": "Pandanlku",
         "description": "Augmente les PM de la cible.",
         "spellTypeInformations": "Sort d'Amélioration",
-        "image": "../spells/sort_704.png",
+        "image": "spells/sort_704.png",
         "level": {
           "0": {
             "ap": 2,
@@ -4046,7 +4046,7 @@
         "name": "Puissance Macabre",
         "description": "Augmente les dommages du lanceur de 100% et lui donne 5 PM, il meurt à la fin du tour.",
         "spellTypeInformations": "Sort d'Amélioration",
-        "image": "../spells/sort_2809.png",
+        "image": "spells/sort_2809.png",
         "level": {
           "0": {
             "ap": 2,
@@ -4127,7 +4127,7 @@
         "name": "Cabriole",
         "description": "Téléporte sur la case ciblée.\nOccasionne des dommages Air en croix.",
         "spellTypeInformations": "Sort de Placement",
-        "image": "../spells/sort_2888.png",
+        "image": "spells/sort_2888.png",
         "level": {
           "0": {
             "ap": 3,
@@ -4200,7 +4200,7 @@
         "name": "Plastron",
         "description": "Applique un bouclier en zone sur le lanceur et les alliés.\nLa valeur du bouclier est divisée par 2 sur les invocations.",
         "spellTypeInformations": "Sort Défensif",
-        "image": "../spells/sort_2890.png",
+        "image": "spells/sort_2890.png",
         "level": {
           "0": {
             "ap": 5,
@@ -4272,7 +4272,7 @@
         "name": "Tortoruga",
         "description": "Applique un bouclier sur la cible.\nLa valeur du bouclier est divisée par 2 sur les invocations.",
         "spellTypeInformations": "Sort Défensif",
-        "image": "../spells/sort_2891.png",
+        "image": "spells/sort_2891.png",
         "level": {
           "0": {
             "ap": 2,
@@ -4344,7 +4344,7 @@
         "name": "Appui",
         "description": "Occasionne des dommages Air, Feu, Terre et Eau aux ennemis.\nÉloigne le lanceur de sa cible.",
         "spellTypeInformations": "Sort de Placement",
-        "image": "../spells/sort_2896.png",
+        "image": "spells/sort_2896.png",
         "level": {
           "0": {
             "ap": 3,
@@ -4471,7 +4471,7 @@
         "name": "Mascarade",
         "description": "Occasionne des dommages Neutre au lanceur et à sa cible.\nPlus la vie du lanceur est élevée, plus les dommages occasionnés sont importants.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_2897.png",
+        "image": "spells/sort_2897.png",
         "level": {
           "0": {
             "ap": 3,
@@ -4525,7 +4525,7 @@
         "name": "Scaphandre",
         "description": "Augmente les PM, les dommages et les dommages de poussée du lanceur et des alliés ciblés.",
         "spellTypeInformations": "Sort d'Amélioration",
-        "image": "../spells/sort_3202.png",
+        "image": "spells/sort_3202.png",
         "level": {
           "0": {
             "ap": 2,
@@ -4688,7 +4688,7 @@
         "name": "Foène",
         "description": "Occasionne des dommages Terre.\nOccasionne des dommages Terre supplémentaires sur réception de dommages de poussée.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_3211.png",
+        "image": "spells/sort_3211.png",
         "level": {
           "0": {
             "ap": 4,
@@ -4779,7 +4779,7 @@
         "name": "Armure de Sel",
         "description": "Réduit les dommages subit à distance par la cible alliée. La réduction est plus importante sur les invocations du lanceur. \nFixe l'état Indéplaçable sur les invocations.",
         "spellTypeInformations": "Sort d'Amélioration",
-        "image": "../spells/sort_3217.png",
+        "image": "spells/sort_3217.png",
         "level": {
           "0": {
             "ap": 2,
@@ -4906,7 +4906,7 @@
         "name": "Rayon de Wakfu",
         "description": "Occasionne des dommages Feu en ligne aux ennemis.\nSoigne les alliés.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_3361.png",
+        "image": "spells/sort_3361.png",
         "level": {
           "0": {
             "ap": 3,
@@ -4979,7 +4979,7 @@
         "name": "Distribution",
         "description": "Lorsque la cible reçoit des dommages de sorts, les alliés à proximité de la cible (2 cases) sont soignés d'une partie des dommages occasionnés.",
         "spellTypeInformations": "Sort de Soin",
-        "image": "../spells/sort_3366.png",
+        "image": "spells/sort_3366.png",
         "level": {
           "0": {
             "ap": 2,
@@ -5042,7 +5042,7 @@
         "name": "Brimade",
         "description": "Occasionne des dommages Air et pousse les cibles.",
         "spellTypeInformations": "Sort de Placement",
-        "image": "../spells/sort_3368.png",
+        "image": "spells/sort_3368.png",
         "level": {
           "0": {
             "ap": 3,
@@ -5115,7 +5115,7 @@
         "name": "Orage",
         "description": "Vole de la vie dans l'élément Terre en zone.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_3386.png",
+        "image": "spells/sort_3386.png",
         "level": {
           "0": {
             "ap": 3,
@@ -5170,7 +5170,7 @@
         "name": "Drain Élémentaire",
         "description": "Occasionne des dommages et vole des caractéristiques dans le dernier élément d'attaque du lanceur.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_3390.png",
+        "image": "spells/sort_3390.png",
         "level": {
           "0": {
             "ap": 2,
@@ -5477,7 +5477,7 @@
         "name": "Traversée",
         "description": "Téléporte sur la cellule ciblée.\nLes cibles comprises entre la cellule initiale et la cellule d'arrivée subissent des dommages en fonction du dernier élément d'attaque du lanceur.",
         "spellTypeInformations": "Sort de Placement",
-        "image": "../spells/sort_3398.png",
+        "image": "spells/sort_3398.png",
         "level": {
           "0": {
             "ap": 4,
@@ -5567,7 +5567,7 @@
         "name": "Polarité",
         "description": "Fait des effets sur l'ennemi en fonction du dernier élément d'attaque du lanceur. \n\nEau : Attire l'ennemi\nTerre : Repousse l'ennemi\nFeu : Échange l'ennemi de position avec le lanceur\nAir : Téléporte symétriquement le lanceur par rapport à l'ennemi\nNeutre : Renvois l'ennemi à sa position précédente ",
         "spellTypeInformations": "Sort de Placement",
-        "image": "../spells/sort_3401.png",
+        "image": "spells/sort_3401.png",
         "level": {
           "0": {
             "ap": 1,
@@ -5657,7 +5657,7 @@
         "name": "Cramponnage",
         "description": "Augmente le Tacle du lanceur pendant 2 tours, s'il est poussé pendant ces 2 tours, il gagne 2 PM pour 1 tour.",
         "spellTypeInformations": "Sort d'Amélioration",
-        "image": "../spells/sort_3489.png",
+        "image": "spells/sort_3489.png",
         "level": {
           "0": {
             "ap": 2,
@@ -5720,7 +5720,7 @@
         "name": "Absorption sacrificielle",
         "description": "Le lanceur tue toutes ses invocations et regagne 20% de sa vie par invocation sacrifiée",
         "spellTypeInformations": "Sort de Soin",
-        "image": "../spells/sort_3496.png",
+        "image": "spells/sort_3496.png",
         "level": {
           "0": {
             "ap": 3,
@@ -5774,7 +5774,7 @@
         "name": "Emportement",
         "description": "Augmente les dommages de poussés du lanceur de 40, lorsque le lanceur inflige un CC, il repousse d'une cases les entités à son corps à corps, pendant 2 tours.\n5 fois maximum par tour.",
         "spellTypeInformations": "Sort de Placement",
-        "image": "../spells/sort_3513.png",
+        "image": "spells/sort_3513.png",
         "level": {
           "0": {
             "ap": 4,
@@ -5835,7 +5835,7 @@
         "name": "Emportement",
         "description": "",
         "spellTypeInformations": "Sort Déclenché",
-        "image": "../spells/sort_3513.png",
+        "image": "spells/sort_3513.png",
         "level": {
           "0": {
             "ap": 4,
@@ -5880,7 +5880,7 @@
         "name": "Tibia",
         "description": "Occasionne des dommages Eau autour du lanceur et repousse.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_3543.png",
+        "image": "spells/sort_3543.png",
         "level": {
           "0": {
             "ap": 4,
@@ -5953,7 +5953,7 @@
         "name": "Charogne",
         "description": "Occasionne des dommages Air et applique de l'Érosion.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_3545.png",
+        "image": "spells/sort_3545.png",
         "level": {
           "0": {
             "ap": 3,
@@ -6044,7 +6044,7 @@
         "name": "Ginga",
         "description": "Applique l'état Indéplaçable et réduit les dommages en mêlée.",
         "spellTypeInformations": "Sort Utilitaire",
-        "image": "../spells/sort_3569.png",
+        "image": "spells/sort_3569.png",
         "level": {
           "0": {
             "ap": 2,
@@ -6107,7 +6107,7 @@
         "name": "Prestance",
         "description": "Attire la cible puis augmente les dommages en mêlée du lanceur.",
         "spellTypeInformations": "Sort de Placement",
-        "image": "../spells/sort_3571.png",
+        "image": "spells/sort_3571.png",
         "level": {
           "0": {
             "ap": 2,
@@ -6170,7 +6170,7 @@
         "name": "Soupape",
         "description": "Occasionne des dommages Feu aux ennemis et augmente les Soins du lanceur.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_3614.png",
+        "image": "spells/sort_3614.png",
         "level": {
           "0": {
             "ap": 3,
@@ -6261,7 +6261,7 @@
         "name": "Brume",
         "description": "Pose un glyphe-aura qui rend invisible les alliés présents dans la zone.",
         "spellTypeInformations": "Sort d'Amélioration",
-        "image": "../spells/sort_3631.png",
+        "image": "spells/sort_3631.png",
         "level": {
           "0": {
             "ap": 3,
@@ -6306,7 +6306,7 @@
         "name": "Piège de Dérive",
         "description": "Pose un piège qui pousse de 2 cases. Occasionne des dommages Feu aux ennemis.",
         "spellTypeInformations": "Sort de Placement",
-        "image": "../spells/sort_3634.png",
+        "image": "spells/sort_3634.png",
         "level": {
           "0": {
             "ap": 2,
@@ -6351,7 +6351,7 @@
         "name": "Fermentation",
         "description": "Applique un bouclier pour le tour en cours et un second au tour suivant.",
         "spellTypeInformations": "Sort Défensif",
-        "image": "../spells/sort_3647.png",
+        "image": "spells/sort_3647.png",
         "level": {
           "0": {
             "ap": 3,
@@ -6414,7 +6414,7 @@
         "name": "Gueule de Bois",
         "description": "Occasionne des dommages Terre.\nLes dommages du sort augmentent aux lancers suivants.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_3656.png",
+        "image": "spells/sort_3656.png",
         "level": {
           "0": {
             "ap": 3,
@@ -6487,7 +6487,7 @@
         "name": "Vertèbre",
         "description": "Empoisonne la cible pendant 3 tours en occasionnant des dommages Eau.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_3674.png",
+        "image": "spells/sort_3674.png",
         "level": {
           "0": {
             "ap": 4,
@@ -6542,7 +6542,7 @@
         "name": "Mâchoire",
         "description": "Occasionne des dommages Feu. \nAugmente l'esquive PM  des alliés à proximité de la cible. Le lanceur n'est pas affecté.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_3678.png",
+        "image": "spells/sort_3678.png",
         "level": {
           "0": {
             "ap": 3,
@@ -6633,7 +6633,7 @@
         "name": "Dégradation",
         "description": "Occasionne des dommages Feu à un ennemi, plus la cible a de points de vie, plus les dommages sont élevés.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_3679.png",
+        "image": "spells/sort_3679.png",
         "level": {
           "0": {
             "ap": 4,
@@ -7048,7 +7048,7 @@
         "name": "Gangrène",
         "description": "Applique de l'Érosion sur l'ennemi ciblé.",
         "spellTypeInformations": "Sort Utilitaire",
-        "image": "../spells/sort_3682.png",
+        "image": "spells/sort_3682.png",
         "level": {
           "0": {
             "ap": 3,
@@ -7102,7 +7102,7 @@
         "name": "Acharnement",
         "description": "Applique l'état Pesanteur sur la cible.\nElle subit également des dommages supplémentaires pendant 1 tour.",
         "spellTypeInformations": "Sort Utilitaire",
-        "image": "../spells/sort_3683.png",
+        "image": "spells/sort_3683.png",
         "level": {
           "0": {
             "ap": 3,
@@ -7165,7 +7165,7 @@
         "name": "Sédimentation",
         "description": "Occasionne des dommages Terre.\nRéduit la Puissance de la cible.",
         "spellTypeInformations": "Sort Utilitaire",
-        "image": "../spells/sort_3697.png",
+        "image": "spells/sort_3697.png",
         "level": {
           "0": {
             "ap": 4,
@@ -7256,7 +7256,7 @@
         "name": "Onde Aquatique",
         "description": "Occasionne des dommages Eau.\nAugmente les dommages occasionnés sur la cible par les invocations, cet effet est dégressif.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_3705.png",
+        "image": "spells/sort_3705.png",
         "level": {
           "0": {
             "ap": 4,
@@ -7347,7 +7347,7 @@
         "name": "Écho Élémentaire",
         "description": "Occasionne des dommages dans le meilleur élément ainsi que tous les éléments dans lesquels le sort a déjà occasionné des dommages.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_3748.png",
+        "image": "spells/sort_3748.png",
         "level": {
           "0": {
             "ap": 3,
@@ -7510,7 +7510,7 @@
         "name": "Pulsion Croissante",
         "description": "Pousse la cible de 1 case. La distance augmente à chaque lancer (8 max).",
         "spellTypeInformations": "Sort de Placement",
-        "image": "../spells/sort_3754.png",
+        "image": "spells/sort_3754.png",
         "level": {
           "0": {
             "ap": 2,
@@ -7681,7 +7681,7 @@
         "name": "Manipulation",
         "description": "Inflige des dommages dans le meilleur élément. Effet supplémentaire selon l'élément :\nTerre : Retire un PM\nEau : Retire 1 PA\nFeu : Attire de 2 cases\nAir : Pousse de 2 cases",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_3765.png",
+        "image": "spells/sort_3765.png",
         "level": {
           "0": {
             "ap": 3,
@@ -7816,7 +7816,7 @@
         "name": "Big Bang",
         "description": "Inflige des dommages Eau à toutes les cibles en étoile, le sort se répète au début du prochain tour du lanceur.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_3766.png",
+        "image": "spells/sort_3766.png",
         "level": {
           "0": {
             "ap": 6,
@@ -7889,7 +7889,7 @@
         "name": "Barrière",
         "description": "Pose un glyphe-aura autour de l'ennemi ciblé et lui applique l'état Pesanteur au début de son prochain tour.\nLe glyphe inflige des dommages Air, Terre, Eau et Feu à l'ennemi s'il le traverse mais lui retire l'état Pesanteur.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_3782.png",
+        "image": "spells/sort_3782.png",
         "level": {
           "0": {
             "ap": 3,
@@ -7961,7 +7961,7 @@
         "name": "Égide",
         "description": "Invoque un bouclier qui subit les dommages à la place des alliés présents dans son glyphe-aura.",
         "spellTypeInformations": "Sort Défensif",
-        "image": "../spells/sort_3784.png",
+        "image": "spells/sort_3784.png",
         "level": {
           "0": {
             "ap": 3,
@@ -8006,7 +8006,7 @@
         "name": "Décadence",
         "description": "Applique un bonus aux dommages finaux à un allié pendant 1 tour.\nAu tour suivant, l'allié ciblé subit davantage de dommages.",
         "spellTypeInformations": "Sort d'Amélioration",
-        "image": "../spells/sort_3798.png",
+        "image": "spells/sort_3798.png",
         "level": {
           "0": {
             "ap": 2,
@@ -8087,7 +8087,7 @@
         "name": "Tourbière",
         "description": "Occasionne des dommages Terre. Moins le lanceur a utilisé de PM pendant son tour de jeu, plus les dommages occasionnés sont importants.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_3806.png",
+        "image": "spells/sort_3806.png",
         "level": {
           "0": {
             "ap": 4,
@@ -8142,7 +8142,7 @@
         "name": "Roulage de Bêche",
         "description": "Occasionne des dommages Feu immédiatement et lorsque la cible subit du retrait de PM pendant 1 tour.\nPeut être déclenché 3 fois par tour.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_3809.png",
+        "image": "spells/sort_3809.png",
         "level": {
           "0": {
             "ap": 3,
@@ -8196,7 +8196,7 @@
         "name": "Bénédiction de l'Ondine",
         "description": "Tous les alliés gagnent 200 de Chance pendant 2 tours, tous les ennemis gagnent 200 dans une caractéristique aléatoire pendant 2 tours.",
         "spellTypeInformations": "Sort d'Amélioration",
-        "image": "../spells/sort_3823.png",
+        "image": "spells/sort_3823.png",
         "level": {
           "0": {
             "ap": 5,
@@ -8286,7 +8286,7 @@
         "name": "Paume Curative",
         "description": "Soigne la cible.",
         "spellTypeInformations": "Sort de Soin",
-        "image": "../spells/sort_3845.png",
+        "image": "spells/sort_3845.png",
         "level": {
           "0": {
             "ap": 3,
@@ -8341,7 +8341,7 @@
         "name": "Réclusion",
         "description": "Place des glyphes autour de la cible, qui lui inflige des dommages Air si elle les traverse.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_3850.png",
+        "image": "spells/sort_3850.png",
         "level": {
           "0": {
             "ap": 2,
@@ -8395,7 +8395,7 @@
         "name": "Abjection",
         "description": "Augmente les dommages de poussée du lanceur de 100 pour ce tour, puis de 60 pour le tour suivant.",
         "spellTypeInformations": "Sort d'Amélioration",
-        "image": "../spells/sort_3851.png",
+        "image": "spells/sort_3851.png",
         "level": {
           "0": {
             "ap": 2,
@@ -8467,7 +8467,7 @@
         "name": "Entrechat",
         "description": "Téléporte sur la cellule ciblée. Augmente la Fuite du lanceur et des alliés autour de la cellule ciblée.",
         "spellTypeInformations": "Sort de Placement",
-        "image": "../spells/sort_3856.png",
+        "image": "spells/sort_3856.png",
         "level": {
           "0": {
             "ap": 1,
@@ -8530,7 +8530,7 @@
         "name": "Redistribution",
         "description": "Applique l'état Intaclable puis l'état Pesanteur le tour suivant.",
         "spellTypeInformations": "Sort Utilitaire",
-        "image": "../spells/sort_3865.png",
+        "image": "spells/sort_3865.png",
         "level": {
           "0": {
             "ap": 2,
@@ -8584,7 +8584,7 @@
         "name": "Tir Glouton",
         "description": "Vole de la vie dans l'élément Terre.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_3885.png",
+        "image": "spells/sort_3885.png",
         "level": {
           "0": {
             "ap": 2,
@@ -8639,7 +8639,7 @@
         "name": "Flèche de Repli",
         "description": "Le lanceur du sort recule de 2 cases.",
         "spellTypeInformations": "Sort de Placement",
-        "image": "../spells/sort_3886.png",
+        "image": "spells/sort_3886.png",
         "level": {
           "0": {
             "ap": 1,
@@ -8684,7 +8684,7 @@
         "name": "Flèche Curative",
         "description": "Soigne et augmente les soins reçus par la cible.",
         "spellTypeInformations": "Sort de Soin",
-        "image": "../spells/sort_3893.png",
+        "image": "spells/sort_3893.png",
         "level": {
           "0": {
             "ap": 3,
@@ -8775,7 +8775,7 @@
         "name": "Mitraille",
         "description": "Occasionne des dommages Air.\nRepousse la cible.",
         "spellTypeInformations": "Sort de Placement",
-        "image": "../spells/sort_3907.png",
+        "image": "spells/sort_3907.png",
         "level": {
           "0": {
             "ap": 4,
@@ -8848,7 +8848,7 @@
         "name": "Mutilation",
         "description": "Le lanceur sacrifie 10% de ses PV pour gagner de la Puissance pendant 1 tour, et ainsi de suite à chaque début de tour tant que le sort est actif. \nRelancer Mutilation arrête ses effets et lance Coagulation.\n\nCoagulation : applique du bouclier au lanceur pour 2 tours selon le nombre de tours où la Mutilation a été active.",
         "spellTypeInformations": "Sort d'Amélioration",
-        "image": "../spells/sort_3921.png",
+        "image": "spells/sort_3921.png",
         "level": {
           "0": {
             "ap": 2,
@@ -8965,7 +8965,7 @@
         "name": "Perfusion",
         "description": "Pendant 2 tours, les cibles sont soignées à hauteur de 40% des dommages infligés au lanceur.",
         "spellTypeInformations": "Sort de Soin",
-        "image": "../spells/sort_3942.png",
+        "image": "spells/sort_3942.png",
         "level": {
           "0": {
             "ap": 2,
@@ -9028,7 +9028,7 @@
         "name": "Flipflop",
         "description": "Échange immédiatement de place avec la cible, puis ré-échange de place avec la cible à la fin du tour du lanceur.",
         "spellTypeInformations": "Sort de Placement",
-        "image": "../spells/sort_3952.png",
+        "image": "spells/sort_3952.png",
         "level": {
           "0": {
             "ap": 2,
@@ -9091,7 +9091,7 @@
         "name": "Pelle Minérale",
         "description": "Occasionne des dommages Eau aux ennemis et soigne les alliés à la fin de leur tour en zone.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_4035.png",
+        "image": "spells/sort_4035.png",
         "level": {
           "0": {
             "ap": 4,
@@ -9164,7 +9164,7 @@
         "name": "Fosse Commune",
         "description": "Pose un piège mono-cellule qui applique l'état Pesanteur en zone Cercle 2 pour 1 tour.",
         "spellTypeInformations": "Sort Utilitaire",
-        "image": "../spells/sort_4038.png",
+        "image": "spells/sort_4038.png",
         "level": {
           "0": {
             "ap": 3,
@@ -9209,7 +9209,7 @@
         "name": "Singularité",
         "description": "Augmente les dommages occasionnés par le lanceur de 20% pendant 2 tours. Un seul combattant peut bénéficier de cet effet à la fois.",
         "spellTypeInformations": "Sort d'Amélioration",
-        "image": "../spells/sort_4043.png",
+        "image": "spells/sort_4043.png",
         "level": {
           "0": {
             "ap": 3,
@@ -9263,7 +9263,7 @@
         "name": "Flèche Complice",
         "description": "Occasionne des dommages Terre autour de l'allié ciblé.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_4067.png",
+        "image": "spells/sort_4067.png",
         "level": {
           "0": {
             "ap": 4,
@@ -9336,7 +9336,7 @@
         "name": "Manigance",
         "description": "Augmente la Fuite et les dommages de la cible",
         "spellTypeInformations": "Sort d'Amélioration",
-        "image": "../spells/sort_4121.png",
+        "image": "spells/sort_4121.png",
         "level": {
           "0": {
             "ap": 2,
@@ -9445,7 +9445,7 @@
         "name": "Hérésie",
         "description": "Inflige des dommages Eau à une cible. A chaque lancer les dommages sont augmentés. Si le lanceur subit des dommages, les dommages du sorts recommencent au début.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_4150.png",
+        "image": "spells/sort_4150.png",
         "level": {
           "0": {
             "ap": 2,
@@ -9536,7 +9536,7 @@
         "name": "Poing Gelé",
         "description": "Occasionne des dommages Eau.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_4162.png",
+        "image": "spells/sort_4162.png",
         "level": {
           "0": {
             "ap": 3,
@@ -9591,7 +9591,7 @@
         "name": "Poing Boueux",
         "description": "Occasionne des dommages Terre.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_4163.png",
+        "image": "spells/sort_4163.png",
         "level": {
           "0": {
             "ap": 3,
@@ -9646,7 +9646,7 @@
         "name": "Poing Venteux",
         "description": "Occasionne des dommages Air.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_4164.png",
+        "image": "spells/sort_4164.png",
         "level": {
           "0": {
             "ap": 3,
@@ -9701,7 +9701,7 @@
         "name": "Furia",
         "description": "Occasionne des dommages Eau.\nAugmente les dommages du lanceur pendant 2 tours.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_4169.png",
+        "image": "spells/sort_4169.png",
         "level": {
           "0": {
             "ap": 3,
@@ -9792,7 +9792,7 @@
         "name": "Tractation",
         "description": "Occasionne des dommages Eau.\nSe rapproche de la cible.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_4170.png",
+        "image": "spells/sort_4170.png",
         "level": {
           "0": {
             "ap": 3,
@@ -9865,7 +9865,7 @@
         "name": "Pelle Fantomatique",
         "description": "Réduit la durée des effets et occasionne des dommages Eau.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_4172.png",
+        "image": "spells/sort_4172.png",
         "level": {
           "0": {
             "ap": 3,
@@ -9938,7 +9938,7 @@
         "name": "Attaque Mortelle",
         "description": "Occasionne des dommages Air. Les dommages sont augmentés sur les cibles ayant moins de 25% de leurs PV.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_4177.png",
+        "image": "spells/sort_4177.png",
         "level": {
           "0": {
             "ap": 4,
@@ -10011,7 +10011,7 @@
         "name": "Pendule",
         "description": "Le lanceur se téléporte symétriquement par rapport à la cible et occasionne des dommages Eau en zone sur sa cellule de destination.\nIl revient ensuite à sa position précédente.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_4184.png",
+        "image": "spells/sort_4184.png",
         "level": {
           "0": {
             "ap": 4,
@@ -10138,7 +10138,7 @@
         "name": "Mitraille",
         "description": "Occasionne des dommages Eau.\nRepousse la cible.",
         "spellTypeInformations": "Sort de Placement",
-        "image": "../spells/sort_4194.png",
+        "image": "spells/sort_4194.png",
         "level": {
           "0": {
             "ap": 4,
@@ -10211,7 +10211,7 @@
         "name": "Bénédiction du Gnome",
         "description": "Tous les alliés gagnent 200 de Force pendant 2 tours, tous les ennemis gagnent 200 dans une caractéristique aléatoire pendant 2 tours.",
         "spellTypeInformations": "Sort d'Amélioration",
-        "image": "../spells/sort_4203.png",
+        "image": "spells/sort_4203.png",
         "level": {
           "0": {
             "ap": 5,
@@ -10301,7 +10301,7 @@
         "name": "Bénédiction de la Sylphe",
         "description": "Tous les alliés gagnent 200 d'Agilité pendant 2 tours, tous les ennemis gagnent 200 dans une caractéristique aléatoire pendant 2 tours.",
         "spellTypeInformations": "Sort d'Amélioration",
-        "image": "../spells/sort_4204.png",
+        "image": "spells/sort_4204.png",
         "level": {
           "0": {
             "ap": 5,
@@ -10391,7 +10391,7 @@
         "name": "Bénédiction de la Salamandre",
         "description": "Tous les alliés gagnent 200 d'Intelligence pendant 2 tours, tous les ennemis gagnent 200 dans une caractéristique aléatoire pendant 2 tours.",
         "spellTypeInformations": "Sort d'Amélioration",
-        "image": "../spells/sort_4205.png",
+        "image": "spells/sort_4205.png",
         "level": {
           "0": {
             "ap": 5,
@@ -10481,7 +10481,7 @@
         "name": "Souffle du dragon",
         "description": "Occasionne des dommages Terre aux ennemis. Soigne les alliés. Repousse les entité adjacentes qui ne sont pas de la même équipe.",
         "spellTypeInformations": "Sort de Soin",
-        "image": "../spells/sort_4209.png",
+        "image": "spells/sort_4209.png",
         "level": {
           "0": {
             "ap": 4,
@@ -10590,7 +10590,7 @@
         "name": "Flèche de Concentration",
         "description": "Occasionne des dommages Terre et attire vers la cible.",
         "spellTypeInformations": "Sort de Placement",
-        "image": "../spells/sort_4211.png",
+        "image": "spells/sort_4211.png",
         "level": {
           "0": {
             "ap": 3,
@@ -10681,7 +10681,7 @@
         "name": "Dépeçage",
         "description": "Occasionne des dommages Terre.\nDivise par 2 les soins subis par la cible pendant 1 tour",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_4212.png",
+        "image": "spells/sort_4212.png",
         "level": {
           "0": {
             "ap": 4,
@@ -10772,7 +10772,7 @@
         "name": "Molosse",
         "description": "Occasionne des dommages Feu.\nLes dommages subis par le lanceur sont réduits de 10% pendant 1 tour.",
         "spellTypeInformations": "Sort Défensif",
-        "image": "../spells/sort_4213.png",
+        "image": "spells/sort_4213.png",
         "level": {
           "0": {
             "ap": 3,
@@ -10863,7 +10863,7 @@
         "name": "Testament",
         "description": "Occasionne des dommages Terre en croix. Les invocations alliées dans la zone sont sacrifiées pour ré-occasionner les dommages en cercle.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_4217.png",
+        "image": "spells/sort_4217.png",
         "level": {
           "0": {
             "ap": 4,
@@ -10934,7 +10934,7 @@
         "name": "Testament",
         "description": "Occasionne des dommages Terre en croix. Les invocations alliées dans la zone sont sacrifiées pour ré-occasionner les dommages en cercle.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_4217.png",
+        "image": "spells/sort_4217.png",
         "level": {
           "0": {
             "ap": 4,
@@ -11007,7 +11007,7 @@
         "name": "Rétention",
         "description": "Vole de la vie dans l'élément Feu.\nRetire des PA.",
         "spellTypeInformations": "Sort Utilitaire",
-        "image": "../spells/sort_4222.png",
+        "image": "spells/sort_4222.png",
         "level": {
           "0": {
             "ap": 4,
@@ -11098,7 +11098,7 @@
         "name": "Lame du Parchomancien",
         "description": "Occasionne des dommages dans le dernier élément d'attaque du lanceur.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_4223.png",
+        "image": "spells/sort_4223.png",
         "level": {
           "0": {
             "ap": 4,
@@ -11225,7 +11225,7 @@
         "name": "Coussinets",
         "description": "Occasionne des dommages Terre sur la cible ennemie et éloigne le lanceur de la cible.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_4229.png",
+        "image": "spells/sort_4229.png",
         "level": {
           "0": {
             "ap": 3,
@@ -11298,7 +11298,7 @@
         "name": "Flamiche Élémentaire",
         "description": "Occasionne des dommages dans le meilleur élément.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_4231.png",
+        "image": "spells/sort_4231.png",
         "level": {
           "0": {
             "ap": 2,
@@ -11353,7 +11353,7 @@
         "name": "Rayon de Wakfu Élémentaire",
         "description": "Occasionne des dommages dans le meilleur élément en ligne aux ennemis.\nSoigne les alliés.",
         "spellTypeInformations": "Sort de Soin",
-        "image": "../spells/sort_4232.png",
+        "image": "spells/sort_4232.png",
         "level": {
           "0": {
             "ap": 3,
@@ -11426,7 +11426,7 @@
         "name": "Flèche Destructrice Élémentaire",
         "description": "Occasionne des dommages dans le meilleur élément et réduit les dommages occasionnés par la cible.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_4234.png",
+        "image": "spells/sort_4234.png",
         "level": {
           "0": {
             "ap": 4,
@@ -11517,7 +11517,7 @@
         "name": "Nem",
         "description": "Nem empoisonne les ennemis et occasionne des dommages dans l'élément Eau.\n\n<font color=\"#6D6D6D\">\n• Limité à 3 invocations par équipe.\n• Limité à 1 exemplaire de chaque invocation par équipe.\n• Compatible avec le sort Maîtrise des Invocations.\n• Le délai de relance commence à la mort de l'invocation.\n</font>",
         "spellTypeInformations": "Sorts d'invocation",
-        "image": "../spells/sort_4235.png",
+        "image": "spells/sort_4235.png",
         "level": {
           "0": {
             "ap": 3,
@@ -11562,7 +11562,7 @@
         "name": "Knadabra",
         "description": "Abra Knadabra n'a pas de PM. Elle se déplace en occasionnant des dommages Feu et mord ses ennemis au corps à corps.\n\n<font color=\"#6D6D6D\">\n• Limité à 3 invocations par équipe.\n• Limité à 1 exemplaire de chaque invocation par équipe.\n• Compatible avec le sort Maîtrise des Invocations.\n• Le délai de relance commence à la mort de l'invocation.\n</font>",
         "spellTypeInformations": "Sorts d'invocation",
-        "image": "../spells/sort_4236.png",
+        "image": "spells/sort_4236.png",
         "level": {
           "0": {
             "ap": 3,
@@ -11607,7 +11607,7 @@
         "name": "Croc Husky",
         "description": "Le Croc Husky occasionne des dommages dans plusieurs éléments et augmente les chances de Critique de son invocateur.\n\n<font color=\"#6D6D6D\">\n• Limité à 3 invocations par équipe.\n• Limité à 1 exemplaire de chaque invocation par équipe.\n• Compatible avec le sort Maîtrise des Invocations.\n• Le délai de relance commence à la mort de l'invocation.\n</font>",
         "spellTypeInformations": "Sorts d'invocation",
-        "image": "../spells/sort_4237.png",
+        "image": "spells/sort_4237.png",
         "level": {
           "0": {
             "ap": 4,
@@ -11652,7 +11652,7 @@
         "name": "Hyènifer",
         "description": "Hyènifer occasionne des dommages Terre en se déplaçant et augmente les dommages de mêlée de ses alliés.\n\n<font color=\"#6D6D6D\">\n• Limité à 3 invocations par équipe.\n• Limité à 1 exemplaire de chaque invocation par équipe.\n• Compatible avec le sort Maîtrise des Invocations.\n• Le délai de relance commence à la mort de l'invocation.\n</font>",
         "spellTypeInformations": "Sorts d'invocation",
-        "image": "../spells/sort_4238.png",
+        "image": "spells/sort_4238.png",
         "level": {
           "0": {
             "ap": 4,
@@ -11697,7 +11697,7 @@
         "name": "Chabbo",
         "description": "Chabbo occasionne des dommages Eau à courte distance et se déplace en prenant appui sur les autres.\n\n<font color=\"#6D6D6D\">\n• Limité à 3 invocations par équipe.\n• Limité à 1 exemplaire de chaque invocation par équipe.\n• Compatible avec le sort Maîtrise des Invocations.\n• Le délai de relance commence à la mort de l'invocation.\n</font>",
         "spellTypeInformations": "Sorts d'invocation",
-        "image": "../spells/sort_4239.png",
+        "image": "spells/sort_4239.png",
         "level": {
           "0": {
             "ap": 4,
@@ -11742,7 +11742,7 @@
         "name": "Slaïe",
         "description": "Slaïe occasionne des dommages Feu en zone à courte distance.\n\n<font color=\"#6D6D6D\">\n• Limité à 3 invocations par équipe.\n• Limité à 1 exemplaire de chaque invocation par équipe.\n• Compatible avec le sort Maîtrise des Invocations.\n• Le délai de relance commence à la mort de l'invocation.\n</font>",
         "spellTypeInformations": "Sorts d'invocation",
-        "image": "../spells/sort_4240.png",
+        "image": "spells/sort_4240.png",
         "level": {
           "0": {
             "ap": 4,
@@ -11787,7 +11787,7 @@
         "name": "Roukewl",
         "description": "Roukwel occasionne des dommages Air en roucoulant et occasionne des dommages Air aux ennemis adjacents quand il subit des dommages de poussée.\n\n<font color=\"#6D6D6D\">\n• Limité à 3 invocations par équipe.\n• Limité à 1 exemplaire de chaque invocation par équipe.\n• Compatible avec le sort Maîtrise des Invocations.\n• Le délai de relance commence à la mort de l'invocation.\n</font>",
         "spellTypeInformations": "Sorts d'invocation",
-        "image": "../spells/sort_4241.png",
+        "image": "spells/sort_4241.png",
         "level": {
           "0": {
             "ap": 4,
@@ -11832,7 +11832,7 @@
         "name": "Yitim Michiwi",
         "description": "Yitim confère un bouclier à son invocateur quand il est attaqué et vice versa. Il peut aussi augmenter ses points de vie pour une courte durée.\n\n<font color=\"#6D6D6D\">\n• Limité à 3 invocations par équipe.\n• Limité à 1 exemplaire de chaque invocation par équipe.\n• Compatible avec le sort Maîtrise des Invocations.\n• Le délai de relance commence à la mort de l'invocation.\n</font>",
         "spellTypeInformations": "Sorts d'invocation",
-        "image": "../spells/sort_4242.png",
+        "image": "spells/sort_4242.png",
         "level": {
           "0": {
             "ap": 4,
@@ -11877,7 +11877,7 @@
         "name": "Nealin Nealang",
         "description": "Nealin soigne ses alliés, occasionne des dommages Feu à distance et des dommages Terre en mêlée.\n\n<font color=\"#6D6D6D\">\n• Limité à 3 invocations par équipe.\n• Limité à 1 exemplaire de chaque invocation par équipe.\n• Compatible avec le sort Maîtrise des Invocations.\n• Le délai de relance commence à la mort de l'invocation.\n</font>",
         "spellTypeInformations": "Sorts d'invocation",
-        "image": "../spells/sort_4243.png",
+        "image": "spells/sort_4243.png",
         "level": {
           "0": {
             "ap": 4,
@@ -11922,7 +11922,7 @@
         "name": "Phorum",
         "description": "Le Phorum pousse et se rapproche de ses ennemis, occasionne des dommages Terre et des dommages Air qui déplacent ses cibles.\n\n<font color=\"#6D6D6D\">\n• Limité à 3 invocations par équipe.\n• Limité à 1 exemplaire de chaque invocation par équipe.\n• Compatible avec le sort Maîtrise des Invocations.\n• Le délai de relance commence à la mort de l'invocation.\n</font>",
         "spellTypeInformations": "Sorts d'invocation",
-        "image": "../spells/sort_4244.png",
+        "image": "spells/sort_4244.png",
         "level": {
           "0": {
             "ap": 4,
@@ -11967,7 +11967,7 @@
         "name": "Rei",
         "description": "Rei occasionne des dommages Eau en zone et des dommages Feu au corps à corps en s'éloignant de sa cible. Elle régénère une partie de ses points de vie à chaque fois que son invocateur occasionne des dommages Eau ou Feu.\n\n<font color=\"#6D6D6D\">\n• Limité à 3 invocations par équipe.\n• Limité à 1 exemplaire de chaque invocation par équipe.\n• Compatible avec le sort Maîtrise des Invocations.\n• Le délai de relance commence à la mort de l'invocation.\n</font>",
         "spellTypeInformations": "Sorts d'invocation",
-        "image": "../spells/sort_4245.png",
+        "image": "spells/sort_4245.png",
         "level": {
           "0": {
             "ap": 4,
@@ -12012,7 +12012,7 @@
         "name": "Corina",
         "description": "Le Corina empoisonne ses ennemis dans l'élément Eau et occasionne des dommages Terre à tous les ennemis empoisonnés. Il peut aussi se sacrifier pour empoisonné les ennemis aux alentours.\n\n<font color=\"#6D6D6D\">\n• Limité à 3 invocations par équipe.\n• Limité à 1 exemplaire de chaque invocation par équipe.\n• Compatible avec le sort Maîtrise des Invocations.\n• Le délai de relance commence à la mort de l'invocation.\n</font>",
         "spellTypeInformations": "Sorts d'invocation",
-        "image": "../spells/sort_4246.png",
+        "image": "spells/sort_4246.png",
         "level": {
           "0": {
             "ap": 4,
@@ -12057,7 +12057,7 @@
         "name": "Grobus",
         "description": "Le Grobus occasionne des dommages Feu et des dommages Air en zone. Il peut aussi tuer des invocations alliées pour se régénérer.\n\n<font color=\"#6D6D6D\">\n• Limité à 3 invocations par équipe.\n• Limité à 1 exemplaire de chaque invocation par équipe.\n• Compatible avec le sort Maîtrise des Invocations.\n• Le délai de relance commence à la mort de l'invocation.\n</font>",
         "spellTypeInformations": "Sorts d'invocation",
-        "image": "../spells/sort_4247.png",
+        "image": "spells/sort_4247.png",
         "level": {
           "0": {
             "ap": 4,
@@ -12102,7 +12102,7 @@
         "name": "Charbender",
         "description": "Le Charbender réduit les dommages occasionnés par les ennemis et attire les cibles à son corps à corps. Soigne les alliés qui l'attaquent de 100% des dommages occasionnés en ne subissant que 50% de ces dommages. Chacune de ces attaques a 15% de chance de soigner intégralement l'invocation et de la transformer temporairement en Charbender agressif.\n\n<font color=\"#6D6D6D\">\n• Limité à 3 invocations par équipe.\n• Limité à 1 exemplaire de chaque invocation par équipe.\n• Compatible avec le sort Maîtrise des Invocations.\n• Le délai de relance commence à la mort de l'invocation.\n</font>",
         "spellTypeInformations": "Sorts d'invocation",
-        "image": "../spells/sort_4248.png",
+        "image": "spells/sort_4248.png",
         "level": {
           "0": {
             "ap": 4,
@@ -12147,7 +12147,7 @@
         "name": "Ressac",
         "description": "Repousse la cible en diagonale, occasionne des dommages Feu.",
         "spellTypeInformations": "Sort de Placement",
-        "image": "../spells/sort_10240.png",
+        "image": "spells/sort_10240.png",
         "level": {
           "0": {
             "ap": 3,
@@ -12220,7 +12220,7 @@
         "name": "Geyser",
         "description": "Occasionne des dommages Terre aux ennemis.",
         "spellTypeInformations": "Sort d'Amélioration",
-        "image": "../spells/sort_10241.png",
+        "image": "spells/sort_10241.png",
         "level": {
           "0": {
             "ap": 3,
@@ -12273,7 +12273,7 @@
         "name": "Geyser",
         "description": "Occasionne des dommages Terre aux ennemis.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_10241.png",
+        "image": "spells/sort_10241.png",
         "level": {
           "0": {
             "ap": 3,
@@ -12328,7 +12328,7 @@
         "name": "Tourbière",
         "description": "Occasionne des dommages Eau. Moins le lanceur a utilisé de PM pendant son tour de jeu, plus les dommages occasionnés sont importants.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_10242.png",
+        "image": "spells/sort_10242.png",
         "level": {
           "0": {
             "ap": 4,
@@ -12383,7 +12383,7 @@
         "name": "Concentration",
         "description": "Occasionne des dommages Air.\nLes dommages sont augmentés contre les Invocations.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_10243.png",
+        "image": "spells/sort_10243.png",
         "level": {
           "0": {
             "ap": 2,
@@ -12456,7 +12456,7 @@
         "name": "Sédimentation",
         "description": "Occasionne des dommages Feu.\nRéduit la Puissance de la cible.",
         "spellTypeInformations": "Sort Utilitaire",
-        "image": "../spells/sort_10244.png",
+        "image": "spells/sort_10244.png",
         "level": {
           "0": {
             "ap": 2,
@@ -12547,7 +12547,7 @@
         "name": "Piège Insidieux",
         "description": "Pose un piège. Une fois déclenché, les ennemis qui terminent leur tour dans sa zone d'effet subissent des dommages Feu.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_10245.png",
+        "image": "spells/sort_10245.png",
         "level": {
           "0": {
             "ap": 3,
@@ -12592,7 +12592,7 @@
         "name": "Flèche Magique",
         "description": "Occasionne des dommages Eau et vole la portée aux ennemis. Augmente la portée des alliés ciblés.",
         "spellTypeInformations": "Sort Utilitaire",
-        "image": "../spells/sort_10246.png",
+        "image": "spells/sort_10246.png",
         "level": {
           "0": {
             "ap": 3,
@@ -12719,7 +12719,7 @@
         "name": "Mot Interdit",
         "description": "Occasionne des dommages Feu.\n\nLes alliés à proximité de la cible (2 cases ou moins) sont soignés à hauteur de 100% des dommages occasionnés.",
         "spellTypeInformations": "Sort de Soin",
-        "image": "../spells/sort_10247.png",
+        "image": "spells/sort_10247.png",
         "level": {
           "0": {
             "ap": 3,
@@ -12792,7 +12792,7 @@
         "name": "Dégradation",
         "description": "Occasionne des dommages Terre à un ennemi, plus la cible a de points de vie, plus les dommages sont élevés.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_10248.png",
+        "image": "spells/sort_10248.png",
         "level": {
           "0": {
             "ap": 4,
@@ -13207,7 +13207,7 @@
         "name": "Roulage de Pelle",
         "description": "Occasionne des dommages Air sans ligne de vue.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_10249.png",
+        "image": "spells/sort_10249.png",
         "level": {
           "0": {
             "ap": 3,
@@ -13262,7 +13262,7 @@
         "name": "Dépeçage",
         "description": "Occasionne des dommages Feu.\nDivise par 2 les soins subis par la cible pendant 1 tour",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_10250.png",
+        "image": "spells/sort_10250.png",
         "level": {
           "0": {
             "ap": 4,
@@ -13353,7 +13353,7 @@
         "name": "Molosse",
         "description": "Occasionne des dommages Air.\nLes dommages subis par le lanceur sont réduits de 10% pendant 1 tour.",
         "spellTypeInformations": "Sort Défensif",
-        "image": "../spells/sort_10251.png",
+        "image": "spells/sort_10251.png",
         "level": {
           "0": {
             "ap": 3,
@@ -13444,7 +13444,7 @@
         "name": "Cabriole",
         "description": "Téléporte sur la case ciblée.\nOccasionne des dommages Feu en croix.",
         "spellTypeInformations": "Sort de Placement",
-        "image": "../spells/sort_10252.png",
+        "image": "spells/sort_10252.png",
         "level": {
           "0": {
             "ap": 3,
@@ -13517,7 +13517,7 @@
         "name": "Esprit Félin",
         "description": "Occasionne des dommages Air et téléporte symétriquement par rapport à la cible.",
         "spellTypeInformations": "Sort de Placement",
-        "image": "../spells/sort_10253.png",
+        "image": "spells/sort_10253.png",
         "level": {
           "0": {
             "ap": 3,
@@ -13590,7 +13590,7 @@
         "name": "Toupet",
         "description": "Occasionne des dommages Terre et réduit les résistances aux dommages de poussée.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_10254.png",
+        "image": "spells/sort_10254.png",
         "level": {
           "0": {
             "ap": 4,
@@ -13681,7 +13681,7 @@
         "name": "Absorption",
         "description": "Vole de la vie Eau et réduit la Puissance de la cible.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_10255.png",
+        "image": "spells/sort_10255.png",
         "level": {
           "0": {
             "ap": 3,
@@ -13772,7 +13772,7 @@
         "name": "Torpille",
         "description": "Occasionne des dommages Feu aux ennemis et repousse la cible.",
         "spellTypeInformations": "Sort de Placement",
-        "image": "../spells/sort_10256.png",
+        "image": "spells/sort_10256.png",
         "level": {
           "0": {
             "ap": 3,
@@ -13845,7 +13845,7 @@
         "name": "Ponteira",
         "description": "Occasionne des dommages Feu et réduit les dommages de la cible.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_10257.png",
+        "image": "spells/sort_10257.png",
         "level": {
           "0": {
             "ap": 3,
@@ -13936,7 +13936,7 @@
         "name": "Lancer de Râteau",
         "description": "Occasionne des dommages Air.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_10258.png",
+        "image": "spells/sort_10258.png",
         "level": {
           "0": {
             "ap": 3,
@@ -13991,7 +13991,7 @@
         "name": "Délivrance",
         "description": "Occasionne des dommages Eau et retire du Tacle.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_10259.png",
+        "image": "spells/sort_10259.png",
         "level": {
           "0": {
             "ap": 3,
@@ -14082,7 +14082,7 @@
         "name": "Miasme",
         "description": "Occasionne des dommages Air en zone",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_10260.png",
+        "image": "spells/sort_10260.png",
         "level": {
           "0": {
             "ap": 3,
@@ -14137,7 +14137,7 @@
         "name": "Sangulaire",
         "description": "Occasionne des dommages Eau en zone.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_10261.png",
+        "image": "spells/sort_10261.png",
         "level": {
           "0": {
             "ap": 3,
@@ -14192,7 +14192,7 @@
         "name": "Muret",
         "description": "Occasionne des dommages Terre en zone",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_10262.png",
+        "image": "spells/sort_10262.png",
         "level": {
           "0": {
             "ap": 3,
@@ -14247,7 +14247,7 @@
         "name": "La Brise",
         "description": "Inflige des dommages Air et gagne 3 PA pour le tour suivant.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_10263.png",
+        "image": "spells/sort_10263.png",
         "level": {
           "0": {
             "ap": 3,
@@ -14338,7 +14338,7 @@
         "name": "Le Roc",
         "description": "Inflige des dommages Terre et gagne 3 PA pour le tour suivant.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_10264.png",
+        "image": "spells/sort_10264.png",
         "level": {
           "0": {
             "ap": 3,
@@ -14429,7 +14429,7 @@
         "name": "L'Étincelle",
         "description": "Inflige des dommages Feu et gagne 3 PA pour le tour suivant.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_10265.png",
+        "image": "spells/sort_10265.png",
         "level": {
           "0": {
             "ap": 3,
@@ -14520,7 +14520,7 @@
         "name": "La Goutte",
         "description": "Inflige des dommages Eau et gagne 3 PA pour le tour suivant.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_10266.png",
+        "image": "spells/sort_10266.png",
         "level": {
           "0": {
             "ap": 3,
@@ -14611,7 +14611,7 @@
         "name": "Piège Permutatif",
         "description": "Pose un piège monocible. L'ennemi qui le déclenche subit des dommages Terre et échange de position avec son allié le plus proche.",
         "spellTypeInformations": "Sort de Placement",
-        "image": "../spells/sort_10267.png",
+        "image": "spells/sort_10267.png",
         "level": {
           "0": {
             "ap": 3,
@@ -14656,7 +14656,7 @@
         "name": "Piège Évasif",
         "description": "Pose un piège monocible. La cible qui le déclenche subit des dommages Air. \nLes alliés du lanceur à proximités gagnent 2 PM pendant 1 tour.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_10268.png",
+        "image": "spells/sort_10268.png",
         "level": {
           "0": {
             "ap": 2,
@@ -14701,7 +14701,7 @@
         "name": "Exil",
         "description": "Pose un glyphe autour de la cible qui inflige des dommages aux ennemis et les repousse de 1 case.",
         "spellTypeInformations": "Sort Défensif",
-        "image": "../spells/sort_10269.png",
+        "image": "spells/sort_10269.png",
         "level": {
           "0": {
             "ap": 1,
@@ -14746,7 +14746,7 @@
         "name": "Flash Final",
         "description": "Réduit de 3 la portée de tous les ennemis en ligne de vue, pendant 2 tours.",
         "spellTypeInformations": "Sort Utilitaire",
-        "image": "../spells/sort_10270.png",
+        "image": "spells/sort_10270.png",
         "level": {
           "0": {
             "ap": 4,
@@ -14800,7 +14800,7 @@
         "name": "Sang-Froid",
         "description": "Maximise les dommages aléatoires de la cible pendant 1 tour.",
         "spellTypeInformations": "Sort d'Amélioration",
-        "image": "../spells/sort_10271.png",
+        "image": "spells/sort_10271.png",
         "level": {
           "0": {
             "ap": 4,
@@ -14845,7 +14845,7 @@
         "name": "Puissance Accablante",
         "description": "Augmente les dommages d'une invocation pendant 1 tour puis elle meurt. (De façon horrible)",
         "spellTypeInformations": "Sort d'Amélioration",
-        "image": "../spells/sort_10272.png",
+        "image": "spells/sort_10272.png",
         "level": {
           "0": {
             "ap": 2,
@@ -14908,7 +14908,7 @@
         "name": "Purge",
         "description": "Réduit la durée des effets de toutes les cibles autour du lanceur.",
         "spellTypeInformations": "Sort Utilitaire",
-        "image": "../spells/sort_10273.png",
+        "image": "spells/sort_10273.png",
         "level": {
           "0": {
             "ap": 3,
@@ -14953,7 +14953,7 @@
         "name": "Requiem",
         "description": "Inflige des dommages à un ennemi dans le dernier élément utilisé, l'allié le plus proche dans un rayon de 3 cases est soigné à hauteur de 100% des dommages occasionnés",
         "spellTypeInformations": "Sort de Soin",
-        "image": "../spells/sort_10274.png",
+        "image": "spells/sort_10274.png",
         "level": {
           "0": {
             "ap": 3,
@@ -15005,7 +15005,7 @@
         "name": "Requiem",
         "description": "Inflige des dommages à un ennemi dans le dernier élément utilisé, l'allié le plus proche dans un rayon de 3 cases est soigné à hauteur de 100% des dommages occasionnés",
         "spellTypeInformations": "Sort de Soin",
-        "image": "../spells/sort_10274.png",
+        "image": "spells/sort_10274.png",
         "level": {
           "0": {
             "ap": 3,
@@ -15059,7 +15059,7 @@
         "name": "Fission Mystique",
         "description": "Inflige des dommages Eau à une cible ainsi qu'aux ennemis alignés perpendiculairement.",
         "spellTypeInformations": "Sort Déclenché",
-        "image": "../spells/sort_10275.png",
+        "image": "spells/sort_10275.png",
         "level": {
           "0": {
             "ap": 4,
@@ -15148,7 +15148,7 @@
         "name": "Fission Mystique",
         "description": "Inflige des dommages Eau à une cible puis les dommages sont réinfligés perpendiculairement.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_10275.png",
+        "image": "spells/sort_10275.png",
         "level": {
           "0": {
             "ap": 4,
@@ -15245,7 +15245,7 @@
         "name": "Flipflap",
         "description": "Echange de position avec un allié et à la fin de son tour il échange de position avec vous.",
         "spellTypeInformations": "Sort de Placement",
-        "image": "../spells/sort_10276.png",
+        "image": "spells/sort_10276.png",
         "level": {
           "0": {
             "ap": 2,
@@ -15308,7 +15308,7 @@
         "name": "Remous",
         "description": "Inflige des dommages Air à une cible et donne de la puissance aux alliés à son corps à corps.",
         "spellTypeInformations": "Sort d'Amélioration",
-        "image": "../spells/sort_10277.png",
+        "image": "spells/sort_10277.png",
         "level": {
           "0": {
             "ap": 4,
@@ -15399,7 +15399,7 @@
         "name": "Ronce Paralysante",
         "description": "Occasionne des dommages Terre et retire des PM.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_10278.png",
+        "image": "spells/sort_10278.png",
         "level": {
           "0": {
             "ap": 3,
@@ -15490,7 +15490,7 @@
         "name": "Glyphe Réparateur",
         "description": "Pose un glyphe qui soigne les alliés qui marchent dedans.",
         "spellTypeInformations": "Sort de Soin",
-        "image": "../spells/sort_10279.png",
+        "image": "spells/sort_10279.png",
         "level": {
           "0": {
             "ap": 3,
@@ -15533,7 +15533,7 @@
         "name": "Glyphe Réparateur",
         "description": "",
         "spellTypeInformations": "Sort Déclenché",
-        "image": "../spells/sort_10279.png",
+        "image": "spells/sort_10279.png",
         "level": {
           "0": {
             "ap": 3,
@@ -15578,7 +15578,7 @@
         "name": "Tibia",
         "description": "Occasionne des dommages Feu autour du lanceur et repousse.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_10280.png",
+        "image": "spells/sort_10280.png",
         "level": {
           "0": {
             "ap": 4,
@@ -15651,7 +15651,7 @@
         "name": "Mâchoire",
         "description": "Occasionne des dommages Eau. \nAugmente la puissance des alliés à proximité de la cible. Le lanceur n'est pas affecté.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_10281.png",
+        "image": "spells/sort_10281.png",
         "level": {
           "0": {
             "ap": 3,
@@ -15742,7 +15742,7 @@
         "name": "Arquebuse",
         "description": "Occasionne des dommages Air sur les ennemis.\nRéduit la durée des effets actifs de 1 tour.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_10282.png",
+        "image": "spells/sort_10282.png",
         "level": {
           "0": {
             "ap": 4,
@@ -15815,7 +15815,7 @@
         "name": "Graine Vampirique",
         "description": "Place un poison sur la cible qui vole de vie Terre au début de son tour, pendant 2 tours.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_10283.png",
+        "image": "spells/sort_10283.png",
         "level": {
           "0": {
             "ap": 4,
@@ -15858,7 +15858,7 @@
         "name": "Graine Vampirique",
         "description": "Place un poison sur la cible qui vole de vie Terre au début de son tour, pendant 2 tours.",
         "spellTypeInformations": "Sort Déclenché",
-        "image": "../spells/sort_10283.png",
+        "image": "spells/sort_10283.png",
         "level": {
           "0": {
             "ap": 4,
@@ -15903,7 +15903,7 @@
         "name": "Lotus Explosif",
         "description": "Le lanceur pose un Lotus Explosif sur un allié. À la fin du tour de l'allié, le Lotus explose en zone infligeant des dommages dans le meilleur élément.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_10284.png",
+        "image": "spells/sort_10284.png",
         "level": {
           "0": {
             "ap": 2,
@@ -15957,7 +15957,7 @@
         "name": "Charogne",
         "description": "Occasionne des dommages Feu et applique de l'Érosion.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_10285.png",
+        "image": "spells/sort_10285.png",
         "level": {
           "0": {
             "ap": 3,
@@ -16048,7 +16048,7 @@
         "name": "Roulage de Bêche",
         "description": "Occasionne des dommages Eau immédiatement et lorsque la cible subit du retrait de PM pendant 1 tour.\nPeut être déclenché 3 fois par tour.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_10286.png",
+        "image": "spells/sort_10286.png",
         "level": {
           "0": {
             "ap": 3,
@@ -16102,7 +16102,7 @@
         "name": "Tractation",
         "description": "Occasionne des dommages Air.\nSe rapproche de la cible.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_10287.png",
+        "image": "spells/sort_10287.png",
         "level": {
           "0": {
             "ap": 3,
@@ -16175,7 +16175,7 @@
         "name": "Réclusion",
         "description": "Place des glyphes autour de la cible, qui lui inflige des dommages Terre si elle les traverse.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_10288.png",
+        "image": "spells/sort_10288.png",
         "level": {
           "0": {
             "ap": 2,
@@ -16229,7 +16229,7 @@
         "name": "Marche de l'Ombre",
         "description": "Téléporte symétriquement par rapport à une cible, vous pouvez relancer une fois le sort pendant ce tour pour 1 PA.",
         "spellTypeInformations": "Sort de Placement",
-        "image": "../spells/sort_10290.png",
+        "image": "spells/sort_10290.png",
         "level": {
           "0": {
             "ap": 3,
@@ -16292,7 +16292,7 @@
         "name": "Glyphe Affaiblissant",
         "description": "Pose un glyphe qui augmente les dommages subit par les cible présentes dans la zone du glyphe.",
         "spellTypeInformations": "Sort Utilitaire",
-        "image": "../spells/sort_10291.png",
+        "image": "spells/sort_10291.png",
         "level": {
           "0": {
             "ap": 4,
@@ -16346,7 +16346,7 @@
         "name": "Tension",
         "description": "Occasionne des dommages Terre et pousse la cible.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_10292.png",
+        "image": "spells/sort_10292.png",
         "level": {
           "0": {
             "ap": 5,
@@ -16419,7 +16419,7 @@
         "name": "Bêche Carnivore",
         "description": "Soigne la cible. Quand la cible est soignée, vole de la vie Feu en zone autour d'elle.\nPeut être déclenché 3 fois par tour.",
         "spellTypeInformations": "Sort de Soin",
-        "image": "../spells/sort_10293.png",
+        "image": "spells/sort_10293.png",
         "level": {
           "0": {
             "ap": 3,
@@ -16482,7 +16482,7 @@
         "name": "Orage",
         "description": "Vole de la vie dans l'élément Air en zone.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_10294.png",
+        "image": "spells/sort_10294.png",
         "level": {
           "0": {
             "ap": 3,
@@ -16537,7 +16537,7 @@
         "name": "Vol du Temps",
         "description": "Occasionne des dommages Terre à la cible.\nLe lanceur gagne 2 PA au début de son prochain tour.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_10295.png",
+        "image": "spells/sort_10295.png",
         "level": {
           "0": {
             "ap": 4,
@@ -16628,7 +16628,7 @@
         "name": "Attaque Mortelle",
         "description": "Occasionne des dommages Feu. Les dommages sont augmentés sur les cibles ayant moins de 25% de leurs PV.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_10296.png",
+        "image": "spells/sort_10296.png",
         "level": {
           "0": {
             "ap": 4,
@@ -16701,7 +16701,7 @@
         "name": "Foène",
         "description": "Occasionne des dommages Eau.\nOccasionne des dommages Eau supplémentaires sur réception de dommages de poussée.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_10298.png",
+        "image": "spells/sort_10298.png",
         "level": {
           "0": {
             "ap": 4,
@@ -16792,7 +16792,7 @@
         "name": "Engrenage",
         "description": "Occasionne des dommages Air aux ennemis et téléporte les cibles symétriquement par rapport au centre de la zone d'effet.",
         "spellTypeInformations": "Sort de Placement",
-        "image": "../spells/sort_10299.png",
+        "image": "spells/sort_10299.png",
         "level": {
           "0": {
             "ap": 3,
@@ -16865,7 +16865,7 @@
         "name": "Herbe Folle",
         "description": "Occasionne des dommages Air et retire des PM en zone.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_10300.png",
+        "image": "spells/sort_10300.png",
         "level": {
           "0": {
             "ap": 3,
@@ -16956,7 +16956,7 @@
         "name": "Anneau Fortifiant",
         "description": "Pose un glyphe qui réduit les dommages subis par ceux qui sont dedans",
         "spellTypeInformations": "Sort Défensif",
-        "image": "../spells/sort_10301.png",
+        "image": "spells/sort_10301.png",
         "level": {
           "0": {
             "ap": 3,
@@ -17001,7 +17001,7 @@
         "name": "Sarcasme",
         "description": "Inflige des dommages Feu et réduit les chances de Coup Critique de la cible.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_10302.png",
+        "image": "spells/sort_10302.png",
         "level": {
           "0": {
             "ap": 4,
@@ -17074,7 +17074,7 @@
         "name": "Baroufle",
         "description": "Tous les alliés, sauf le lanceur, à moins de 3 cases de la cible déclenchent une attaque sur celle-ci dans leur meilleur élément.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_10303.png",
+        "image": "spells/sort_10303.png",
         "level": {
           "0": {
             "ap": 5,
@@ -17137,7 +17137,7 @@
         "name": "Brimade",
         "description": "Occasionne des dommages Eau et pousse les cibles.",
         "spellTypeInformations": "Sort de Placement",
-        "image": "../spells/sort_10304.png",
+        "image": "spells/sort_10304.png",
         "level": {
           "0": {
             "ap": 3,
@@ -17210,7 +17210,7 @@
         "name": "Remous",
         "description": "Inflige des dommages Feu à une cible et donne de la puissance aux alliés à son corps à corps.",
         "spellTypeInformations": "Sort d'Amélioration",
-        "image": "../spells/sort_10305.png",
+        "image": "spells/sort_10305.png",
         "level": {
           "0": {
             "ap": 4,
@@ -17301,7 +17301,7 @@
         "name": "Hérésie",
         "description": "Inflige des dommages Air à une cible. À chaque lancer les dommages sont augmentés. Si le lanceur subit des dommages, les dommages du sorts recommencent au début.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_10306.png",
+        "image": "spells/sort_10306.png",
         "level": {
           "0": {
             "ap": 2,
@@ -17392,7 +17392,7 @@
         "name": "Désinvocation",
         "description": "Occasionne des dommages Terre.\nOccasionne une ligne de dommages Terre supplémentaire sur les invocations.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_10307.png",
+        "image": "spells/sort_10307.png",
         "level": {
           "0": {
             "ap": 4,
@@ -17465,7 +17465,7 @@
         "name": "Tout ou Rien",
         "description": "Sur ennemis : Occasionne des dommages Terre en zone immédiatement et soigne au tour suivant.\nSur alliés : Soigne en zone immédiatement et occasionne des dommages Terre au tour suivant.\nLe lanceur est toujours affecté en premier.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_10308.png",
+        "image": "spells/sort_10308.png",
         "level": {
           "0": {
             "ap": 2,
@@ -17619,7 +17619,7 @@
         "name": "Tumulte",
         "description": "Occasionne des dommages Air en zone.\nLes dommages du sort sont augmentés pour chaque ennemi présent dans la zone avant d'être infligés.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_10309.png",
+        "image": "spells/sort_10309.png",
         "level": {
           "0": {
             "ap": 4,
@@ -17710,7 +17710,7 @@
         "name": "Épée de Iop",
         "description": "Occasionne des dommages Air en croix.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_10310.png",
+        "image": "spells/sort_10310.png",
         "level": {
           "0": {
             "ap": 4,
@@ -17765,7 +17765,7 @@
         "name": "Épée de Iop",
         "description": "Occasionne des dommages Eau en croix.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_10311.png",
+        "image": "spells/sort_10311.png",
         "level": {
           "0": {
             "ap": 4,
@@ -17820,7 +17820,7 @@
         "name": "Furia",
         "description": "Occasionne des dommages Air.\nAugmente les dommages du lanceur pendant 2 tours.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_10312.png",
+        "image": "spells/sort_10312.png",
         "level": {
           "0": {
             "ap": 3,
@@ -17911,7 +17911,7 @@
         "name": "Hécatombe",
         "description": "Vole de la vie Terre en zone et réduit les soins reçus par les cibles de 50% pendant 1 tour.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_10313.png",
+        "image": "spells/sort_10313.png",
         "level": {
           "0": {
             "ap": 4,
@@ -18002,7 +18002,7 @@
         "name": "Retour du Bâton",
         "description": "Occasionne des dommages Feu et vole de l'Intelligence.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_10314.png",
+        "image": "spells/sort_10314.png",
         "level": {
           "0": {
             "ap": 3,
@@ -18093,7 +18093,7 @@
         "name": "Boliche",
         "description": "Occasionne des dommages Feu  sur ennemis.\nPousse la cible et rapproche le lanceur.",
         "spellTypeInformations": "Sort de Placement",
-        "image": "../spells/sort_10315.png",
+        "image": "spells/sort_10315.png",
         "level": {
           "0": {
             "ap": 3,
@@ -18184,7 +18184,7 @@
         "name": "Esprit Félin",
         "description": "Occasionne des dommages Eau et téléporte symétriquement par rapport à la cible.",
         "spellTypeInformations": "Sort de Placement",
-        "image": "../spells/sort_10316.png",
+        "image": "spells/sort_10316.png",
         "level": {
           "0": {
             "ap": 3,
@@ -18257,7 +18257,7 @@
         "name": "Mot Pernicieux",
         "description": "Occasionne des dommages Feu.\nLes dommages subis sont augmentés et occasionnés aux ennemis autour de la cible.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_10317.png",
+        "image": "spells/sort_10317.png",
         "level": {
           "0": {
             "ap": 3,
@@ -18330,7 +18330,7 @@
         "name": "Piège Funeste",
         "description": "Pose un piège monocible qui occasionne des dommages Eau.\nLes dommages sont augmentés en fonction du nombre d'ennemis à 2 cases ou moins du piège.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_10318.png",
+        "image": "spells/sort_10318.png",
         "level": {
           "0": {
             "ap": 3,
@@ -18375,7 +18375,7 @@
         "name": "Sulfure",
         "description": "Occasionne des dommages Feu au corps à corps. Le lanceur gagne des dommages mêlée en fonction du nombres d'ennemis touchés.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_10319.png",
+        "image": "spells/sort_10319.png",
         "level": {
           "0": {
             "ap": 4,
@@ -18484,7 +18484,7 @@
         "name": "Couperet",
         "description": "Occasionne des dommages Eau et retire des PM.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_10320.png",
+        "image": "spells/sort_10320.png",
         "level": {
           "0": {
             "ap": 3,
@@ -18575,7 +18575,7 @@
         "name": "Heurt",
         "description": "Pousse une cible de 3 cases, puis l'attire de 2 cases si elle subit des dommages de poussée.",
         "spellTypeInformations": "Sort Déclenché",
-        "image": "../spells/sort_10321.png",
+        "image": "spells/sort_10321.png",
         "level": {
           "0": {
             "ap": 3,
@@ -18627,7 +18627,7 @@
         "name": "Heurt",
         "description": "Pousse une cible de 3 cases, puis l'attire de 2 cases si elle subit des dommages de poussée.",
         "spellTypeInformations": "Sort de Placement",
-        "image": "../spells/sort_10321.png",
+        "image": "spells/sort_10321.png",
         "level": {
           "0": {
             "ap": 3,
@@ -18681,7 +18681,7 @@
         "name": "Flèche Agglutinante",
         "description": "Rapproche les ennemis et alliés, même s'ils sont bloqués par d'autres entités.",
         "spellTypeInformations": "Sort de Placement",
-        "image": "../spells/sort_10322.png",
+        "image": "spells/sort_10322.png",
         "level": {
           "0": {
             "ap": 3,
@@ -18726,7 +18726,7 @@
         "name": "Bistouille",
         "description": "Vole de la vie dans l'élément Air en zone.\nN'affecte pas le lanceur.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_10323.png",
+        "image": "spells/sort_10323.png",
         "level": {
           "0": {
             "ap": 4,
@@ -18781,7 +18781,7 @@
         "name": "Zénith",
         "description": "Occasionne des dommages Eau en zone. \nOccasionne des dommages Eau supplémentaires selon les PM du lanceur : moins le lanceur a utilisé de PM pendant son tour de jeu, plus les dommages supplémentaires seront importants.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_10324.png",
+        "image": "spells/sort_10324.png",
         "level": {
           "0": {
             "ap": 5,
@@ -18854,7 +18854,7 @@
         "name": "Soin Fulminant",
         "description": "Soigne la cible.\nSe propage sur l'ennemi le plus proche dans un rayon de 2 cellules.\nÀ chaque cible supplémentaire, les soins sont augmentés.",
         "spellTypeInformations": "Sort de Soin",
-        "image": "../spells/sort_10325.png",
+        "image": "spells/sort_10325.png",
         "level": {
           "0": {
             "ap": 4,
@@ -18971,7 +18971,7 @@
         "name": "Ressac",
         "description": "Repousse la cible en diagonale, occasionne des dommages Eau.",
         "spellTypeInformations": "Sort de Placement",
-        "image": "../spells/sort_10326.png",
+        "image": "spells/sort_10326.png",
         "level": {
           "0": {
             "ap": 3,
@@ -19044,7 +19044,7 @@
         "name": "Liqueur",
         "description": "Vole de la vie dans l'élément Feu.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_10327.png",
+        "image": "spells/sort_10327.png",
         "level": {
           "0": {
             "ap": 3,
@@ -19099,7 +19099,7 @@
         "name": "Commotion",
         "description": "Occasionne des dommages Air en croix aux ennemis.\nAttire les cibles vers la cellule ciblée.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_10328.png",
+        "image": "spells/sort_10328.png",
         "level": {
           "0": {
             "ap": 4,
@@ -19172,7 +19172,7 @@
         "name": "Gelure",
         "description": "Occasionne des dommages Terre aux ennemis.\nTéléporte la cible à sa position précédente.",
         "spellTypeInformations": "Sort de Placement",
-        "image": "../spells/sort_10329.png",
+        "image": "spells/sort_10329.png",
         "level": {
           "0": {
             "ap": 2,
@@ -19245,7 +19245,7 @@
         "name": "Extraction",
         "description": "Vol de vie Eau en ligne.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_10330.png",
+        "image": "spells/sort_10330.png",
         "level": {
           "0": {
             "ap": 3,
@@ -19300,7 +19300,7 @@
         "name": "Mot Fracassant",
         "description": "Occasionne des dommages Air et retire des PA.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_10331.png",
+        "image": "spells/sort_10331.png",
         "level": {
           "0": {
             "ap": 5,
@@ -19373,7 +19373,7 @@
         "name": "Flèche Punitive",
         "description": "Occasionne des dommages Eau et augmente les dommages du sort tous les 2 tours.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_10332.png",
+        "image": "spells/sort_10332.png",
         "level": {
           "0": {
             "ap": 4,
@@ -19464,7 +19464,7 @@
         "name": "Langue Râpeuse",
         "description": "Occasionne des dommages Air aux ennemis.\nSur ennemi : réduit la portée\nSur allié : augmente la portée",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_10333.png",
+        "image": "spells/sort_10333.png",
         "level": {
           "0": {
             "ap": 4,
@@ -19591,7 +19591,7 @@
         "name": "Flèche Assaillante",
         "description": "Occasionne des dommages Terre en zone.\nChaque allié au contact de la cible ennemi gagne 100 Puissance pendant 1 tour.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_10334.png",
+        "image": "spells/sort_10334.png",
         "level": {
           "0": {
             "ap": 4,
@@ -19682,7 +19682,7 @@
         "name": "Lancer de Pelle",
         "description": "Occasionne des dommages Eau.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_10335.png",
+        "image": "spells/sort_10335.png",
         "level": {
           "0": {
             "ap": 4,
@@ -19737,7 +19737,7 @@
         "name": "Pfizerisation",
         "description": "Soigne la cible, moins elle a de vie restante plus elle est soignée.",
         "spellTypeInformations": "Sort de Soin",
-        "image": "../spells/sort_10336.png",
+        "image": "spells/sort_10336.png",
         "level": {
           "0": {
             "ap": 4,
@@ -19818,7 +19818,7 @@
         "name": "Manteau Épineux",
         "description": "Augmente le tacle de la cible. Elle renvoie 15% des dommages qu'elle subit à son attaquant, pendant 1 tour.",
         "spellTypeInformations": "Sort d'Amélioration",
-        "image": "../spells/sort_10337.png",
+        "image": "spells/sort_10337.png",
         "level": {
           "0": {
             "ap": 3,
@@ -19881,7 +19881,7 @@
         "name": "Malédiction Vaudou",
         "description": "Occasionne des dommages Eau et Feu.\n\nEmpoisonne la cible pendant 2 tours :\n• Occasionne des dommages Feu si elle perd des PM\n• Occasionne des dommages Eau si elle perd des PA\nLes dommages de chaque élément peuvent être déclenchés 3 fois par tour.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_10338.png",
+        "image": "spells/sort_10338.png",
         "level": {
           "0": {
             "ap": 3,
@@ -19944,7 +19944,7 @@
         "name": "Malédiction Vaudou",
         "description": "Occasionne des dommages Terre et Air.\n\nEmpoisonne la cible pendant 2 tours :\n• Occasionne des dommages Terre si elle perd des PM\n• Occasionne des dommages Air si elle perd des PA\nLes dommages de chaque élément peuvent être déclenchés 3 fois par tour.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_10339.png",
+        "image": "spells/sort_10339.png",
         "level": {
           "0": {
             "ap": 3,
@@ -20007,7 +20007,7 @@
         "name": "Flèche Tyrannique",
         "description": "Occasionne des dommages Feu et Air.\nOccasionne des dommages Feu supplémentaires si la cible subit des dommages de poussée, et des dommages Air si la cible est attirée, poussée ou transposée.\nLes dommages de chaque élément peuvent être déclenchés 2 fois par tour au maximum.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_10340.png",
+        "image": "spells/sort_10340.png",
         "level": {
           "0": {
             "ap": 4,
@@ -20097,7 +20097,7 @@
         "name": "Flèche Tyrannique",
         "description": "Occasionne des dommages Terre et Eau.\nOccasionne des dommages Terre supplémentaires si la cible subit des dommages de poussée, et des dommages Eau si la cible est attirée, poussée ou transposée.\nLes dommages de chaque élément peuvent être déclenchés 2 fois par tour au maximum.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_10341.png",
+        "image": "spells/sort_10341.png",
         "level": {
           "0": {
             "ap": 4,
@@ -20187,7 +20187,7 @@
         "name": "Générosité Vampirique",
         "description": "Occasionne des dommages Air aux ennemis, à la fin de son tour le lanceur soigne ses alliés en zone autour de lui. Chaque ennemi touché par le sort augmente la puissance du soin.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_10342.png",
+        "image": "spells/sort_10342.png",
         "level": {
           "0": {
             "ap": 2,
@@ -20278,7 +20278,7 @@
         "name": "Soin percutant",
         "description": "Soigne l'allié ciblé de 8% de ses PV à la fin de son prochain tour. Lorsque le soin est appliqué le lanceur occasionne des dommages Air aux ennemis en zone autour de l'allié.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_10343.png",
+        "image": "spells/sort_10343.png",
         "level": {
           "0": {
             "ap": 3,
@@ -20332,7 +20332,7 @@
         "name": "Venthylo",
         "description": "Occasionne des dommages Air aux ennemis, les alliés alignés à 2 cases derrière l'ennemi gagnent 150 dommages de poussée pendant 1 tour.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_10344.png",
+        "image": "spells/sort_10344.png",
         "level": {
           "0": {
             "ap": 2,
@@ -20423,7 +20423,7 @@
         "name": "Bourre soufflée",
         "description": "Occasionne des dommages Air en zone et applique l'état intacleur aux ennemis pendant 1 tour.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_10345.png",
+        "image": "spells/sort_10345.png",
         "level": {
           "0": {
             "ap": 4,
@@ -20496,7 +20496,7 @@
         "name": "Aspiration",
         "description": "Occasionne des dommages Air en zone autour du lanceur et pose un glyphe au sol sous le lanceur pendant 2 tours, qui augmente de 2 les PM des alliés qui marchent dessus pendant 1 tour. Le bonus PM ne touche pas le lanceur.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_10346.png",
+        "image": "spells/sort_10346.png",
         "level": {
           "0": {
             "ap": 3,
@@ -20559,7 +20559,7 @@
         "name": "Boucharde",
         "description": "Occasionne des dommages Terre aux ennemis. Les alliés alignés à 2 cases derrière l'ennemi gagnent 100 de puissance pour 1 tour.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_10348.png",
+        "image": "spells/sort_10348.png",
         "level": {
           "0": {
             "ap": 3,
@@ -20622,7 +20622,7 @@
         "name": "Bauge",
         "description": "Pose un piège monocible. Occasionne des dommages Terre et pose un glyphe en zone qui dure un tour. Le glyphe retire 2 PM esquivable et 30 de tacle aux ennemis qui marche dedans.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_10349.png",
+        "image": "spells/sort_10349.png",
         "level": {
           "0": {
             "ap": 2,
@@ -20667,7 +20667,7 @@
         "name": "Poussée Tellurique",
         "description": "Occasionne des dommages Terre, repousse de 3 cases, puis téléporte la cible à sa position précédente. ",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_10350.png",
+        "image": "spells/sort_10350.png",
         "level": {
           "0": {
             "ap": 3,
@@ -20758,7 +20758,7 @@
         "name": "Cuisson lente",
         "description": "Applique un poison Feu de fin de tour pendant 2 tours.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_10351.png",
+        "image": "spells/sort_10351.png",
         "level": {
           "0": {
             "ap": 2,
@@ -20813,7 +20813,7 @@
         "name": "Réchauffement Chaotique",
         "description": "Occasionne des dommages Feu et réduit les résistances poussées des ennemis de 100 pendant 1 tour en zone. ",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_10352.png",
+        "image": "spells/sort_10352.png",
         "level": {
           "0": {
             "ap": 3,
@@ -20904,7 +20904,7 @@
         "name": "Ann Eau",
         "description": "Occasionne des dommages Eau aux ennemis de 2 à 3 PO autour du lanceur, les alliés dans la zone gagnent 150 de chance pendant 1 tour.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_10353.png",
+        "image": "spells/sort_10353.png",
         "level": {
           "0": {
             "ap": 4,
@@ -20995,7 +20995,7 @@
         "name": "Capillarité",
         "description": "Le lanceur occasionne des dommages Eau aux ennemis puis les réappliquent à la fin de son tour. Les dommages réappliqués sont augmentés pour chaque ennemi ciblé.\nSi la cible est un allié elle gagne 100 de puissance pendant 1 tour, elle est soignée à la fin du tour du lanceur. Les soins sont augmentés pour chaque allié ciblé. ",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_10354.png",
+        "image": "spells/sort_10354.png",
         "level": {
           "0": {
             "ap": 2,
@@ -21103,7 +21103,7 @@
         "name": "Bouclier statique",
         "description": "Applique l'état pesanteur, lourd, indéplaçable, 25 de tacle et une réduction des dommages, de mêlée de 12% et à distance de 8% à la cible pendant 2 tours. Les effets sont retirés si la cible utilise un PM pour se déplacer.",
         "spellTypeInformations": "Sort Défensif",
-        "image": "../spells/sort_10355.png",
+        "image": "spells/sort_10355.png",
         "level": {
           "0": {
             "ap": 3,
@@ -21202,7 +21202,7 @@
         "name": "Garde-fou",
         "description": "Applique 200% du niveau du lanceur en bouclier au lanceur pendant 1 tour et pose un glyphe aura en zone boomerang 2 qui repousse les ennemis de 2 cases et leur retire 1 PM (esquivable) lorsqu'ils marchent dessus. ",
         "spellTypeInformations": "Sort Défensif",
-        "image": "../spells/sort_10356.png",
+        "image": "spells/sort_10356.png",
         "level": {
           "0": {
             "ap": 3,
@@ -21265,7 +21265,7 @@
         "name": "Couardise",
         "description": "Augmente la fuite de 10 et soigne la cible de 5% de ses PDV",
         "spellTypeInformations": "Sort Utilitaire",
-        "image": "../spells/sort_10357.png",
+        "image": "spells/sort_10357.png",
         "level": {
           "0": {
             "ap": 3,
@@ -21328,7 +21328,7 @@
         "name": "Prise d'appui",
         "description": "Occasionne des dommages dans le meilleur élément, repousse le lanceur par rapport à la cible et augmente de 1 les PM du lanceur pour le tour en cours.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_10360.png",
+        "image": "spells/sort_10360.png",
         "level": {
           "0": {
             "ap": 3,
@@ -21419,7 +21419,7 @@
         "name": "Piège Confusant",
         "description": "Pose un piège sur la cellule ciblée. Le lanceur se téléporte symétriquement par rapport au point d'impact et inflige des dommages aux ennemis dans le meilleur élément en zone après la téléportation. L'ennemi qui déclenche le piège subit des dommages dans le meilleur élément et échange de place avec le lanceur. Ce dernier occasionne des dommages aux ennemis qui sont à 2 cases ou moins de lui.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_10361.png",
+        "image": "spells/sort_10361.png",
         "level": {
           "0": {
             "ap": 5,
@@ -21482,7 +21482,7 @@
         "name": "Guérignon",
         "description": "Occasionne des dommages dans le dernier élément d'attaque aux ennemis. Les alliés derrière l'ennemi de 1 à 4 PO sont soigné de 14% de leur vies.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_10362.png",
+        "image": "spells/sort_10362.png",
         "level": {
           "0": {
             "ap": 3,
@@ -21627,7 +21627,7 @@
         "name": "Lien liant",
         "description": "L'allié ciblé et le lanceur partagent les dommages reçut pendant 2 tours. En contre-partie ils perdent 1 PA et 1 PM pendant toute la durée des effets. ",
         "spellTypeInformations": "Sort Défensif",
-        "image": "../spells/sort_10364.png",
+        "image": "spells/sort_10364.png",
         "level": {
           "0": {
             "ap": 2,
@@ -21690,7 +21690,7 @@
         "name": "Décharge spasmodique",
         "description": "Applique un poison Air de fin de tour à la cible pendant 1 tours. La cible retire 50 d'Agilité à ses alliés autour d'elle en fin de tour.",
         "spellTypeInformations": "Sort Offensif",
-        "image": "../spells/sort_10366.png",
+        "image": "spells/sort_10366.png",
         "level": {
           "0": {
             "ap": 2,
@@ -21744,7 +21744,7 @@
         "name": "Yaularakne",
         "description": "Petite Arakne qui inflige des dommages Terre au corps à corps.\n\n<font color=\"#6D6D6D\">\n• Limité à 3 invocations par équipe.\n• Limité à 1 exemplaire de chaque invocation par équipe.\n• Compatible avec le sort Maîtrise des Invocations.\n• Le délai de relance commence à la mort de l'invocation.\n</font>",
         "spellTypeInformations": "Sorts d'invocation",
-        "image": "../spells/sort_10368.png",
+        "image": "spells/sort_10368.png",
         "level": {
           "0": {
             "ap": 3,
