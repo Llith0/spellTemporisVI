@@ -1184,7 +1184,7 @@
             "globalCooldown": 0,
             "effect": {
               "0": {
-                "element": -1,
+                "element": "air",
                 "area": "P1",
                 "damage": {
                   "min": 16396,
@@ -12572,7 +12572,7 @@
             "globalCooldown": 0,
             "effect": {
               "0": {
-                "element": -1,
+                "element": "feu",
                 "area": "P1",
                 "damage": {
                   "min": 20314,
