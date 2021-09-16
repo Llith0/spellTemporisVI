@@ -18,6 +18,11 @@
                 <button v-on:click="sort(spellsArr, 'feu')">Sorts feu</button>
                 <button v-on:click="sort(spellsArr, 'terre')">Sorts terre</button>
                 <button v-on:click="sort(spellsArr, 'air')">Sorts air</button>
+                <button v-on:click="sort(spellsArr, '-1')">Le reste</button>
+                <div class="input-group mb-3 mt-4">
+                    <span class="input-group-text" id="basic-addon1">Rechercher un sort</span>
+                    <input type="text" v-model="spellNameInput" class="form-control" placeholder="" aria-label="searchSpell" aria-describedby="searchSpell">
+                </div>
             </div>
             <div class="mt-5">
                 <template v-for="(spell, index) in spellsArr">
@@ -183,7 +188,7 @@
             el: '#app',
             data: {
                 spellsArr: [],
-                message: 'ok'
+                spellNameInput: ''
             },
             methods: {
                 add: function(nb1, nb2){
@@ -244,6 +249,27 @@
                     return finalSentance
                 }
                 },
+            watch:{
+                spellNameInput: function(val, oldval){
+                    let elemArr = [];
+                    fetch("https://raw.githubusercontent.com/Llith0/spellTemporisVI/main/assets/json/spells.json")
+                    .then(response => response.json())
+                    .then(
+                        json => 
+                        {
+                            for( let spells in json ){
+                                for( let spell in json[spells] ){
+                                    if (json[spells][spell].name.toUpperCase().indexOf(val.toUpperCase()) !== -1){
+                                        elemArr.push(json[spells][spell]);
+                                    }
+                                }
+                            }
+                            elemArr.sort((a,b) => (a.level[0].level > b.level[0].level) ? 1 : ((b.level[0].level > a.level[0].level) ? -1 : 0))
+                            this.spellsArr = elemArr;
+                        }
+                    );
+                }
+            },
             mounted(){
                 fetch("https://raw.githubusercontent.com/Llith0/spellTemporisVI/main/assets/json/spells.json")
                 .then(response => response.json())
