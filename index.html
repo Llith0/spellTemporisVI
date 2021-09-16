@@ -151,8 +151,9 @@
                     json => 
                     {
                         const parsedJSON = JSON.parse(json);
+                        console.log(parsedJSON)
                         for( let spells in parsedJSON ){
-                            console.log( spells );
+                            console.log( json[spells] );
                         }
                     }
                 );
