@@ -69,67 +69,6 @@
             "criticalEffect": {}
           }
         }
-      },
-      "21": {
-        "spellId": 20359,
-        "name": "Trêve",
-        "description": "Réduit tous les dommages subis par les alliés et les ennemis pendant 1 tour.\nLe lanceur ne peut pas occasionner de dommages pendant son tour suivant.",
-        "spellTypeInformations": "Sort Utilitaire",
-        "image": "..\\..\\Documents\\app\\PyDofus-master\\input\\sorts\\sprites\\sort_5.png",
-        "level": {
-          "0": {
-            "ap": 3,
-            "level": 199,
-            "range": {
-              "min": 0,
-              "max": 0
-            },
-            "CritcalProbability": 0,
-            "castInLine": false,
-            "castInDiagonal": false,
-            "castTestLos": false,
-            "needFreeCell": false,
-            "needTakenCell": false,
-            "needFreeTrapCell": false,
-            "rangeCanBeBoosted": false,
-            "maxStack": 0,
-            "maxCastPerTurn": 0,
-            "maxCastPerTarget": 0,
-            "minCastInterval": 6,
-            "initialCooldown": 0,
-            "globalCooldown": -1,
-            "effect": {
-              "0": {
-                "element": -1,
-                "area": "A1",
-                "damage": {
-                  "min": 1000,
-                  "max": 0,
-                  "desc": "Dommages réduits de #1{~1~2 à }#2"
-                }
-              },
-              "1": {
-                "element": -1,
-                "area": "P1",
-                "damage": {
-                  "min": 0,
-                  "max": 0,
-                  "desc": "Enlève l'état #3"
-                }
-              },
-              "2": {
-                "element": -1,
-                "area": "P1",
-                "damage": {
-                  "min": 0,
-                  "max": 0,
-                  "desc": "État #3"
-                }
-              }
-            },
-            "criticalEffect": {}
-          }
-        }
       }
     },
     "6": {

@@ -147,7 +147,14 @@
             mounted(){
                 fetch("./assets/json/spells.json")
                 .then(response => response.json())
-                .then(json => console.log(json));
+                .then(
+                    json => 
+                    {
+                        for(spells in json) {
+                            console.log(spells)
+                        }
+                    }
+                );
             },
         })
     </script>
