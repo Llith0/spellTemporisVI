@@ -3,6 +3,7 @@
     <head>
         <title>Sorts temporis VI</title>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script type = "text/javascript" src = "https://cdn.jsdelivr.net/npm/vue@2.6.14"></script>
         <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
@@ -176,6 +177,18 @@
                                     </table>
                                 </div>
                             </div>
+                            <div class="container mr-4">
+                                <div class="mt-4">
+                                    <h4 class="mb-3" style="margin-left: 10%">Drop</h4>
+                                </div>
+                                <table class="table table-striped align-center mx-auto" style="width: 80%">
+                                    <tbody>
+                                        <tr>
+                                            <td>{{spell}}</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
                         </div>
                     </div>
                 </template>
@@ -214,9 +227,9 @@
                             for( let spells in json ){
                                 for( let spell in json[spells] ){
                                     elemArr.push(json[spells][spell]);
-                                    elemArr.sort((a,b) => (a.level[0].level > b.level[0].level) ? 1 : ((b.level[0].level > a.level[0].level) ? -1 : 0))
                                 }
                             }
+                            elemArr.sort((a,b) => (a.level[0].level > b.level[0].level) ? 1 : ((b.level[0].level > a.level[0].level) ? -1 : 0))
                             for(let x in elemArr) {
                                 for(let y in elemArr[x].level) {
                                     for(let z in elemArr[x].level[y].effect) {
@@ -279,9 +292,9 @@
                         for( let spells in json ){
                             for( let spell in json[spells] ){
                                 this.spellsArr.push(json[spells][spell]);
-                                this.spellsArr.sort((a,b) => (a.level[0].level > b.level[0].level) ? 1 : ((b.level[0].level > a.level[0].level) ? -1 : 0))
                             }
                         }
+                        this.spellsArr.sort((a,b) => (a.level[0].level > b.level[0].level) ? 1 : ((b.level[0].level > a.level[0].level) ? -1 : 0))
                     }
                 );
             },
