@@ -179,13 +179,14 @@
                             </div>
                             <div class="container mr-4">
                                 <div class="mt-4">
-                                    <h4 class="mb-3" style="margin-left: 10%">Drop</h4>
+                                    <h4 class="mb-3" style="margin-left: 10%" v-if="spell.drop.drop_percent.includes('Craft, avec la recette') == true">Craft</h4>
+                                    <h4 class="mb-3" style="margin-left: 10%" v-if = "spell.drop.drop_percent.includes('Craft, avec la recette') == false">Drop</h4>
                                 </div>
                                 <table class="table table-striped align-center mx-auto" style="width: 80%">
                                     <tbody>
                                         <tr v-for="(monster_drop, index) in spell.drop.monster">
                                             <td v-if="monster_drop != 0">{{monster_drop}}</td>
-                                            <td class="text-end" v-if="monster_drop != 0">{{spell.drop.drop_percent}}</td>
+                                            <td class="text-end" v-if="monster_drop != 0 && spell.drop.drop_percent.includes('Craft, avec la recette') == false">{{spell.drop.drop_percent}}</td>
                                             <td v-if="monster_drop == 0">{{spell.drop.drop_percent}}</td>
                                         </tr>
                                     </tbody>
